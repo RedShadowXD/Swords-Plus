@@ -1,4 +1,6 @@
 advancements.intersword_get.title=Better Irony
+item.slimeysword.name=Slimeysword
+advancements.slimey_swordget.title=Slimey Paradise!
 subtitles.armor_light=
 advancements.treshachest.title=Light Chest?
 advancements.temple.title=Light Temple?
@@ -10,6 +12,7 @@ advancements.lightogoding.descr=Obtain a Super Lightsword.
 item.fire_inner_sword.name=Fire Intersword
 item.light_armorlegs.name=Light Leggings
 advancements.temple.descr=Find and enter a Light Temple.
+advancements.slimey_swordget.descr=Obtain the Slimeysword.
 item.superlightsword.name=Super Lightsword
 advancements.intersword_1.title=Swords? Time for more!
 advancements.light_sowrd.title=God O' Light
