@@ -51,6 +51,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:LightIngot"
+      },
+      {
+        "value": "CUSTOM:Lightshard"
       }
     ]
   }
