@@ -1,0 +1,16 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "mb_plus:obsidian_ingot",
+    "count": 9
+  }
+}

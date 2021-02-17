@@ -1,0 +1,10 @@
+{
+	"result": {
+		"item": "chiselsandbits:mirrorprint"
+	},
+	"ingredients": [{
+		"item": "chiselsandbits:mirrorprint",
+		"data": 32767
+	}],
+	"type": "minecraft:crafting_shapeless"
+}

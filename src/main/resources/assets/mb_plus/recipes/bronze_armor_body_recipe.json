@@ -1,0 +1,39 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "2": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "3": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "4": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "5": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "6": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "7": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "8": {
+      "item": "mb_plus:bronzeingot"
+    }
+  },
+  "result": {
+    "item": "mb_plus:bronze_armorbody",
+    "count": 1
+  }
+}

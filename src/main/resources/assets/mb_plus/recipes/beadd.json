@@ -1,0 +1,16 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "mb_plus:bread",
+    "count": 8
+  }
+}

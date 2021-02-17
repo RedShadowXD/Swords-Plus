@@ -1,0 +1,30 @@
+{
+  "group": "swords_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "swords_plus:light_ingot"
+    },
+    "3": {
+      "item": "swords_plus:light_ingot"
+    },
+    "4": {
+      "item": "swords_plus:intersword"
+    },
+    "5": {
+      "item": "swords_plus:light_ingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "swords_plus:lightsword",
+    "count": 1
+  }
+}

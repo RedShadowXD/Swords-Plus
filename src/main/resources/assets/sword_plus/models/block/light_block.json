@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sword_plus:blocks/ligh-block-b1",
+    "particle": "sword_plus:blocks/ligh-block-b1"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma"
+    },
+    "2": {
+      "item": "minecraft:magma"
+    },
+    "3": {
+      "item": "minecraft:magma"
+    },
+    "4": {
+      "item": "minecraft:magma"
+    },
+    "5": {
+      "item": "minecraft:magma"
+    },
+    "6": {
+      "item": "minecraft:magma"
+    },
+    "7": {
+      "item": "minecraft:magma"
+    },
+    "8": {
+      "item": "minecraft:magma"
+    }
+  },
+  "result": {
+    "item": "mb_plus:magma_armorbody",
+    "count": 1
+  }
+}

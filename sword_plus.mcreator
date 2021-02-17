@@ -1,0 +1,555 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Intersword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intersword"
+    },
+    {
+      "name": "InterswordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intersword_recipe"
+    },
+    {
+      "name": "Intersword1",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intersword_1"
+    },
+    {
+      "name": "SwordsPlusJoin",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swords_plus_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InterswordGet",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intersword_get"
+    },
+    {
+      "name": "Lightshard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightshard"
+    },
+    {
+      "name": "LightIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_ingot"
+    },
+    {
+      "name": "LightOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_ore"
+    },
+    {
+      "name": "LightBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_block"
+    },
+    {
+      "name": "LightOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_ore_block_recipe"
+    },
+    {
+      "name": "LightBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_block_ore_recipe"
+    },
+    {
+      "name": "LightOreSmelting",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_ore_smelting"
+    },
+    {
+      "name": "Motelm",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motelm"
+    },
+    {
+      "name": "Ingotsd",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ingotsd"
+    },
+    {
+      "name": "Lightcoal",
+      "type": "fuel",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightcoal"
+    },
+    {
+      "name": "Lightswordresp",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightswordresp"
+    },
+    {
+      "name": "LightSowrd",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_sowrd"
+    },
+    {
+      "name": "LightStoneBrickbottom",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_stone_brickbottom"
+    },
+    {
+      "name": "LightSorwd",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_sorwd"
+    },
+    {
+      "name": "LIGHTTempleblocks",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_templeblocks"
+    },
+    {
+      "name": "Chest",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chest"
+    },
+    {
+      "name": "Chestcusrtom",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "chestcusrtom"
+    },
+    {
+      "name": "AdvTempleBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_temple_block"
+    },
+    {
+      "name": "Temple",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temple"
+    },
+    {
+      "name": "AdvTempleBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_temple_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Treshachest",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treshachest"
+    },
+    {
+      "name": "ChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chest_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Templefl1",
+      "type": "structure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templefl_1"
+    },
+    {
+      "name": "Templef2",
+      "type": "structure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templef_2"
+    },
+    {
+      "name": "Templef3",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templef_3"
+    },
+    {
+      "name": "Templetl1",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templetl_1"
+    },
+    {
+      "name": "Templetl2",
+      "type": "structure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templetl_2"
+    },
+    {
+      "name": "LighingstoneBrick",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lighingstone_brick"
+    },
+    {
+      "name": "FireInnerSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_inner_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireInnerSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_inner_sword"
+    },
+    {
+      "name": "Adv2",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_2"
+    },
+    {
+      "name": "SuperlightswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superlightsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Superlightsword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superlightsword"
+    },
+    {
+      "name": "Lighg2",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lighg_2"
+    },
+    {
+      "name": "Light3",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_3"
+    },
+    {
+      "name": "Lightogoding",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightogoding"
+    },
+    {
+      "name": "LightArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LightArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_armor_helmet_recipe"
+    },
+    {
+      "name": "LightArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_armor_body_recipe"
+    },
+    {
+      "name": "LightArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_armor_leggings_recipe"
+    },
+    {
+      "name": "LightArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "armor_light",
+      "files": [
+        "armor_light_yes_2",
+        "armor_light_yes_3",
+        "armor_light_yes_4",
+        "armor_light_yes_5",
+        "armor_light_yes"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.intersword_get.title": "Better Irony",
+      "subtitles.armor_light": "",
+      "advancements.treshachest.title": "Light Chest?",
+      "advancements.temple.title": "Light Temple?",
+      "item.intersword.name": "inner Sword",
+      "advancements.lightogoding.title": "God O\u0027 Lightning",
+      "advancements.adv_2.descr": "Obtain the Fire Intersword.",
+      "advancements.adv_2.title": "Intersword: The Sequel.",
+      "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
+      "item.fire_inner_sword.name": "Fire Intersword",
+      "item.light_armorlegs.name": "Light Leggings",
+      "advancements.temple.descr": "Find and enter a Light Temple.",
+      "item.superlightsword.name": "Super Lightsword",
+      "advancements.intersword_1.title": "Swords? Time for more!",
+      "advancements.light_sowrd.title": "God O\u0027 Light",
+      "tile.lighingstone_brick.name": "Light Stone Brick",
+      "advancements.treshachest.descr": "Find and Open a Light Chest in the Light Temple.",
+      "advancements.light_sowrd.descr": "Obtain the Lightsword.",
+      "tile.adv_temple_block.name": "Adv Temple Block",
+      "tile.chest.name": "Chest",
+      "itemGroup.tablight_templeblocks": "Light Temple Blocks",
+      "item.light_sorwd.name": "Lightsword",
+      "item.light_armorhelmet.name": "Light Helmet",
+      "tile.light_ore.name": "Light Ore",
+      "advancements.intersword_1.descr": "Thanks for using Swords+",
+      "item.lightshard.name": "Light Shard",
+      "tile.light_block.name": "Block of Light",
+      "tile.light_stone_brickbottom.name": "particle Stone Brick",
+      "item.light_armorboots.name": "Light Boots",
+      "item.light_ingot.name": "Light Ingot",
+      "item.light_armorbody.name": "Light Chestplate",
+      "advancements.intersword_get.descr": "Obtain the Inner Sword."
+    }
+  },
+  "workspaceSettings": {
+    "modid": "sword_plus",
+    "modName": "Swords+",
+    "version": "1.0.0",
+    "author": "RedShadown",
+    "websiteURL": "http://tny.im/Swords-plus",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "swords_banner",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "co-owner SMLkaiellis08",
+    "modElementsPackage": "red.shadow.swords",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

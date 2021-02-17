@@ -1,0 +1,22 @@
+{
+  "group": "swords_plus",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "swords_plus:lightshard"
+    },
+    {
+      "item": "swords_plus:lightshard"
+    },
+    {
+      "item": "swords_plus:lightshard"
+    },
+    {
+      "item": "swords_plus:lightshard"
+    }
+  ],
+  "result": {
+    "item": "swords_plus:light_ingot",
+    "count": 1
+  }
+}

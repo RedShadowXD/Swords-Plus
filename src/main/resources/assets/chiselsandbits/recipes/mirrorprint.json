@@ -1,0 +1,17 @@
+{
+	"result": {
+		"item": "chiselsandbits:mirrorprint"
+	},
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+			"item": "minecraft:water_bucket"
+		},
+		{
+			"item": "minecraft:paper"
+		},
+		{
+			"type": "forge:ore_dict",
+			"ore": "dustGlowstone"
+		}
+	]
+}

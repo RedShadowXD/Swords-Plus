@@ -1,0 +1,28 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "intersword",
+    "customModelName": "Normal",
+    "name": "inner Sword",
+    "specialInfo": [
+      "§lHead of the Iron Swords."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 1400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

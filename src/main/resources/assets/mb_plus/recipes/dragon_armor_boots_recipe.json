@@ -1,0 +1,26 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "2": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "3": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "5": {
+      "item": "mb_plus:dragon_scales"
+    }
+  },
+  "result": {
+    "item": "mb_plus:dragon_armorboots",
+    "count": 1
+  }
+}

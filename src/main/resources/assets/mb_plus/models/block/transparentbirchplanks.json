@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mb_plus:blocks/planks_birch",
+    "up": "mb_plus:blocks/planks_birch",
+    "north": "mb_plus:blocks/planks_birch",
+    "east": "mb_plus:blocks/planks_birch",
+    "south": "mb_plus:blocks/planks_birch",
+    "west": "mb_plus:blocks/planks_birch",
+    "particle": "mb_plus:blocks/planks_birch"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "1": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "2": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "3": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "6": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "7": {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    "8": {
+      "item": "minecraft:planks",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "mb_plus:transparentacaciaplanks",
+    "count": 4
+  }
+}

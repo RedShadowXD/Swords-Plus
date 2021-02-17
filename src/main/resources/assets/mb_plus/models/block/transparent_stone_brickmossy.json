@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mb_plus:blocks/stonebrick_mossy",
+    "up": "mb_plus:blocks/stonebrick_mossy",
+    "north": "mb_plus:blocks/stonebrick_mossy",
+    "east": "mb_plus:blocks/stonebrick_mossy",
+    "south": "mb_plus:blocks/stonebrick_mossy",
+    "west": "mb_plus:blocks/stonebrick_mossy",
+    "particle": "mb_plus:blocks/stonebrick_mossy"
+  }
+}

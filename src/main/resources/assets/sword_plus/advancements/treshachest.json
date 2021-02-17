@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sword_plus:light_block"
+    },
+    "title": {
+      "translate": "advancements.treshachest.title"
+    },
+    "description": {
+      "translate": "advancements.treshachest.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "treshachest": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "sword_plus:temple"
+}

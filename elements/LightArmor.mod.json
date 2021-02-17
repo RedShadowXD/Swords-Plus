@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "light_head",
+    "enableBody": true,
+    "textureBody": "light_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "light_leggings",
+    "enableBoots": true,
+    "textureBoots": "light_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "light_",
+    "helmetName": "Light Helmet",
+    "bodyName": "Light Chestplate",
+    "leggingsName": "Light Leggings",
+    "bootsName": "Light Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 38,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 5,
+    "enchantability": 21,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:armor_light"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightIngot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.0,
+    "cookingTime": 4000,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Lightshard"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:LightIngot"
+    },
+    "name": "motelm",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mb_plus:blocks/berry",
+    "particle": "mb_plus:blocks/berry"
+  }
+}

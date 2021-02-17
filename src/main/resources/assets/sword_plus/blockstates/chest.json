@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "sword_plus:chest"
+    },
+    "facing=north": {
+      "model": "sword_plus:chest"
+    },
+    "facing=east": {
+      "model": "sword_plus:chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sword_plus:chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sword_plus:chest",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "sword_plus:chest",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "sword_plus:chest",
+      "x": 90
+    }
+  }
+}

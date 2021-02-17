@@ -1,0 +1,21 @@
+{
+	"result": {
+		"item": "chiselsandbits:wrench_wood"
+	},
+	"pattern": [
+		" W ",
+		"WS ",
+		"  S"
+	],
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"S": {
+			"type": "forge:ore_dict",
+			"ore": "stickWood"
+		},
+		"W": {
+			"type": "forge:ore_dict",
+			"ore": "plankWood"
+		}
+	}
+}

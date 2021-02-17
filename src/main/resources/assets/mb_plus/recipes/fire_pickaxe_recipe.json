@@ -1,0 +1,30 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_powder"
+    },
+    "1": {
+      "item": "minecraft:blaze_powder"
+    },
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mb_plus:fire_pickaxe",
+    "count": 1
+  }
+}

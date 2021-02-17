@@ -1,0 +1,34 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "1": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 14
+    }
+  },
+  "result": {
+    "item": "mb_plus:tey_armorhelmet",
+    "count": 1
+  }
+}

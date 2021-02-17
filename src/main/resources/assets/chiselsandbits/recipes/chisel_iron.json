@@ -1,0 +1,19 @@
+{
+	"result": {
+		"item": "chiselsandbits:chisel_iron"
+	},
+	"pattern": [
+		"TS"
+	],
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"S": {
+			"type": "forge:ore_dict",
+			"ore": "stickWood"
+		},
+		"T": {
+			"type": "forge:ore_dict",
+			"ore": "ingotIron"
+		}
+	}
+}

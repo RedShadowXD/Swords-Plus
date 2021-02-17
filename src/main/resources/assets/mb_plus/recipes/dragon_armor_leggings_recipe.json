@@ -1,0 +1,36 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "1": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "2": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "3": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "5": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "6": {
+      "item": "mb_plus:dragon_scales"
+    },
+    "8": {
+      "item": "mb_plus:dragon_scales"
+    }
+  },
+  "result": {
+    "item": "mb_plus:dragon_armorlegs",
+    "count": 1
+  }
+}

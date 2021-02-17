@@ -1,0 +1,26 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "sword_plus:lightshard"
+    },
+    "2": {
+      "item": "sword_plus:lightshard"
+    },
+    "3": {
+      "item": "sword_plus:light_ingot"
+    },
+    "5": {
+      "item": "sword_plus:light_ingot"
+    }
+  },
+  "result": {
+    "item": "sword_plus:light_armorboots",
+    "count": 1
+  }
+}

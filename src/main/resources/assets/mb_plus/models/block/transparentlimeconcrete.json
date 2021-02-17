@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mb_plus:blocks/concrete_lime",
+    "up": "mb_plus:blocks/concrete_lime",
+    "north": "mb_plus:blocks/concrete_lime",
+    "east": "mb_plus:blocks/concrete_lime",
+    "south": "mb_plus:blocks/concrete_lime",
+    "west": "mb_plus:blocks/concrete_lime",
+    "particle": "mb_plus:blocks/concrete_lime"
+  }
+}

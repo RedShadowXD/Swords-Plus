@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "mb_plus:berry_bush"
+    },
+    "title": {
+      "translate": "advancements.berrybush_adv.title"
+    },
+    "description": {
+      "translate": "advancements.berrybush_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "berrybush_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "mb_plus:berry"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2,
+    "recipes": [
+      "mb_plus:obsidian_axe_recipe"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

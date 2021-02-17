@@ -1,0 +1,13 @@
+{
+  "group": "swords_plus",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "swords_plus:light_block"
+    }
+  ],
+  "result": {
+    "item": "swords_plus:light_ingot",
+    "count": 9
+  }
+}

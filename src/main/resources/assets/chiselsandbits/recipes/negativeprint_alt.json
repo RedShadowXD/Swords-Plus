@@ -1,0 +1,10 @@
+{
+	"result": {
+		"item": "chiselsandbits:negativeprint"
+	},
+	"ingredients": [{
+		"item": "chiselsandbits:negativeprint",
+		"data": 32767
+	}],
+	"type": "minecraft:crafting_shapeless"
+}

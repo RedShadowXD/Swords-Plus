@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mb_plus:blocks/advan_icon",
+    "up": "mb_plus:blocks/advan_icon",
+    "north": "mb_plus:blocks/advan_icon",
+    "east": "mb_plus:blocks/advan_icon",
+    "south": "mb_plus:blocks/advan_icon",
+    "west": "mb_plus:blocks/advan_icon",
+    "particle": "mb_plus:blocks/advan_icon"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "swords_plus:lightsword"
+    },
+    "title": {
+      "translate": "advancements.lightsword_g_et.title"
+    },
+    "description": {
+      "translate": "advancements.lightsword_g_et.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lightsword_g_et": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "swords_plus:lightsword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "swords_plus:intersword_1"
+}

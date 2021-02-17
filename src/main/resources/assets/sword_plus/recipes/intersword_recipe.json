@@ -1,0 +1,32 @@
+{
+  "group": "swords_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:iron_sword"
+    },
+    "6": {
+      "item": "minecraft:quartz_block",
+      "data": 32767
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:quartz_block",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "sword_plus:intersword",
+    "count": 1
+  }
+}

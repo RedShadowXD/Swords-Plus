@@ -1,0 +1,27 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "minecraft:dirt",
+      "data": 1
+    },
+    "title": {
+      "translate": "advancements.wow_dirst.title"
+    },
+    "description": {
+      "translate": "advancements.wow_dirst.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "wow_dirst": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "group": "mb_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "1": {
+      "item": "mb_plus:bronzeingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mb_plus:bronze_hoe",
+    "count": 1
+  }
+}

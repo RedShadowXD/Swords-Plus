@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "sword_plus",
+    "name": "Swords+",
+    "description": "",
+    "version": "1.0.0",
+    "credits": "co-owner SMLkaiellis08",
+    "logoFile": "assets/sword_plus/textures/swords_banner.png",
+    "mcversion": "1.12.2",
+    "url": "http://tny.im/Swords-plus",
+    "updateUrl": "",
+    "authorList": [
+      "RedShadown"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

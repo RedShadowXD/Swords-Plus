@@ -1,0 +1,27 @@
+{
+  "armor_light": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sword_plus:armor_light_yes_2",
+        "stream": false
+      },
+      {
+        "name": "sword_plus:armor_light_yes_3",
+        "stream": false
+      },
+      {
+        "name": "sword_plus:armor_light_yes_4",
+        "stream": false
+      },
+      {
+        "name": "sword_plus:armor_light_yes_5",
+        "stream": false
+      },
+      {
+        "name": "sword_plus:armor_light_yes",
+        "stream": false
+      }
+    ]
+  }
+}
