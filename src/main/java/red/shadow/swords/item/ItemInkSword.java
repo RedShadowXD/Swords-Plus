@@ -38,7 +38,7 @@ public class ItemInkSword extends ElementsSwordPlusMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("INK_SWORD", 2, 750, 5.5f, 2f, 13)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("INK_SWORD", 2, 750, 5.5f, 1f, 13)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

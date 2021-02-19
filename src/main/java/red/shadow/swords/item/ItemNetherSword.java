@@ -1,6 +1,8 @@
 
 package red.shadow.swords.item;
 
+import red.shadow.swords.procedure.ProcedureNetherSwordToolInHandTick;
+import red.shadow.swords.procedure.ProcedureFireInnerSwordLivingEntityIsHitWithTool;
 import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
@@ -11,15 +13,19 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
+import java.util.Map;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
@@ -51,6 +57,37 @@ public class ItemNetherSword extends ElementsSwordPlusMod.ModElement {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("sword", 2);
 				return ret.keySet();
+			}
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, EntityLivingBase entity, EntityLivingBase entity2) {
+				super.hitEntity(itemstack, entity, entity2);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				World world = entity.world;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureFireInnerSwordLivingEntityIsHitWithTool.executeProcedure($_dependencies);
+				}
+				return true;
+			}
+
+			@Override
+			public void onUpdate(ItemStack itemstack, World world, Entity entity, int slot, boolean par5) {
+				super.onUpdate(itemstack, world, entity, slot, par5);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				if (entity instanceof EntityLivingBase && ((EntityLivingBase) entity).getHeldItemMainhand().equals(itemstack)) {
+					Map<String, Object> $_dependencies = new HashMap<>();
+					ProcedureNetherSwordToolInHandTick.executeProcedure($_dependencies);
+				}
 			}
 		}.setUnlocalizedName("nether_sword").setRegistryName("nether_sword").setCreativeTab(TabSwords.tab));
 	}

@@ -8,17 +8,19 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:dye",
+      "data": 0
     },
     "1": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:dye",
+      "data": 0
     },
     "2": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "sword_plus:nether_sword",
+    "item": "sword_plus:ink_sword",
     "count": 1
   }
 }

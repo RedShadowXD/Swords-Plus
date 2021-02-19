@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.NETHER_BRICK"
+        "value": "Items.DYE#0"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.NETHER_BRICK"
+        "value": "Items.DYE#0"
       },
       {
         "value": ""
@@ -31,16 +31,16 @@
         "value": ""
       },
       {
-        "value": "Blocks.NETHER_WART"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NetherSword"
+      "value": "CUSTOM:InkSword"
     },
-    "name": "nether_sword_recipe",
+    "name": "ink_sword_recipe",
     "namespace": "mod"
   }
 }

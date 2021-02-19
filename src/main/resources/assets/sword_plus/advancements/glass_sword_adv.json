@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sword_plus:glass_sword"
+    },
+    "title": {
+      "translate": "advancements.glass_sword_adv.title"
+    },
+    "description": {
+      "translate": "advancements.glass_sword_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glass_sword_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "sword_plus:slimey_swordget"
+}

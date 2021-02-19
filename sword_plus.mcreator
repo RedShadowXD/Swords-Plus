@@ -586,6 +586,70 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "swords"
+    },
+    {
+      "name": "NetherSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "InkSwordRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ink_sword_recipe"
+    },
+    {
+      "name": "GlassSwordADV",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_sword_adv"
+    },
+    {
+      "name": "GlassSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_sword_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -616,6 +680,7 @@
       "advancements.adv_2.descr": "Obtain the Fire Intersword.",
       "advancements.adv_2.title": "Intersword: The Sequel.",
       "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
+      "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
       "item.fire_inner_sword.name": "Fire Intersword",
       "item.light_armorlegs.name": "Light Leggings",
       "advancements.temple.descr": "Find and enter a Light Temple.",
@@ -636,6 +701,7 @@
       "tile.light_ore.name": "Light Ore",
       "advancements.intersword_1.descr": "Thanks for using Swords+",
       "item.lightshard.name": "Light Shard",
+      "advancements.glass_sword_adv.descr": "You accidentaly got hurt by your Glass Sword!",
       "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
       "tile.light_stone_brickbottom.name": "particle Stone Brick",
