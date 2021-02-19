@@ -31,23 +31,23 @@ public class ProcedureGlassSwordEntitySwingsItem extends ElementsSwordPlusMod.Mo
 		if ((Math.random() < 0.9)) {
 			if (entity instanceof EntityLivingBase)
 				((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.POISON, (int) 60, (int) 0, (false), (false)));
-			if ((((entity instanceof EntityPlayerMP) && ((entity).world instanceof WorldServer))
-					? ((EntityPlayerMP) entity).getAdvancements()
-							.getProgress(((WorldServer) (entity).world).getAdvancementManager()
-									.getAdvancement(new ResourceLocation("sword_plus:glass_sword_adv")))
-							.isDone()
-					: false)) {
-			} else {
-				if (entity instanceof EntityPlayerMP) {
-					Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
-							.getAdvancement(new ResourceLocation("sword_plus:glass_sword_adv"));
-					AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
-					if (!_ap.isDone()) {
-						Iterator _iterator = _ap.getRemaningCriteria().iterator();
-						while (_iterator.hasNext()) {
-							String _criterion = (String) _iterator.next();
-							((EntityPlayerMP) entity).getAdvancements().grantCriterion(_adv, _criterion);
-						}
+		}
+		if ((((entity instanceof EntityPlayerMP) && ((entity).world instanceof WorldServer))
+				? ((EntityPlayerMP) entity).getAdvancements()
+						.getProgress(((WorldServer) (entity).world).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("sword_plus:glass_sword_adv")))
+						.isDone()
+				: false)) {
+		} else {
+			if (entity instanceof EntityPlayerMP) {
+				Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
+						.getAdvancement(new ResourceLocation("sword_plus:glass_sword_adv"));
+				AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemaningCriteria().iterator();
+					while (_iterator.hasNext()) {
+						String _criterion = (String) _iterator.next();
+						((EntityPlayerMP) entity).getAdvancements().grantCriterion(_adv, _criterion);
 					}
 				}
 			}
