@@ -20,7 +20,7 @@ public class ItemLightIngot extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:light_ingot")
 	public static final Item block = null;
 	public ItemLightIngot(ElementsSwordPlusMod instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override

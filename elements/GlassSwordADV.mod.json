@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Don't Cut Yourself!",
-    "achievementDescription": "You accidentaly got hurt by your Glass Sword!",
+    "achievementDescription": "Obtain the Glass Sword.",
     "achievementIcon": {
       "value": "CUSTOM:GlassSword"
     },
@@ -15,11 +15,11 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 2,
-    "achievementType": "challenge",
+    "rewardXP": 1,
+    "achievementType": "task",
     "parent": {
       "value": "CUSTOM:SlimeySwordget"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"100\" y=\"50\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"57\" y=\"64\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:GlassSword</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

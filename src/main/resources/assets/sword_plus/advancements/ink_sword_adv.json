@@ -1,26 +1,26 @@
 {
   "display": {
     "icon": {
-      "item": "sword_plus:glass_sword"
+      "item": "sword_plus:ink_sword"
     },
     "title": {
-      "translate": "advancements.glass_sword_adv.title"
+      "translate": "advancements.ink_sword_adv.title"
     },
     "description": {
-      "translate": "advancements.glass_sword_adv.descr"
+      "translate": "advancements.ink_sword_adv.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "glass_sword_adv": {
+    "ink_sword_adv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "sword_plus:glass_sword",
+            "item": "sword_plus:ink_sword",
             "count": {
               "min": 1,
               "max": 1
@@ -31,7 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 2
   },
-  "parent": "sword_plus:slimey_swordget"
+  "parent": "sword_plus:intersword_1"
 }

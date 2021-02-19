@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 @ElementsSwordPlusMod.ModElement.Tag
 public class RecipeMotelm extends ElementsSwordPlusMod.ModElement {
 	public RecipeMotelm(ElementsSwordPlusMod instance) {
-		super(instance, 25);
+		super(instance, 26);
 	}
 
 	@Override

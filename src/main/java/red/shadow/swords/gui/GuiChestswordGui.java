@@ -34,11 +34,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsSwordPlusMod.ModElement.Tag
-public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
-	public static int GUIID = 1;
+public class GuiChestswordGui extends ElementsSwordPlusMod.ModElement {
+	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
-	public GuiChestcusrtom(ElementsSwordPlusMod instance) {
-		super(instance, 31);
+	public GuiChestswordGui(ElementsSwordPlusMod instance) {
+		super(instance, 65);
 	}
 
 	@Override
@@ -58,57 +58,65 @@ public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 20);
+			this.internal = new InventoryBasic("", true, 22);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 12, 15) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 26, 11) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 30, 15) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 44, 11) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 48, 15) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 62, 11) {
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 66, 15) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 80, 11) {
 			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 84, 15) {
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 26, 29) {
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 102, 15) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 62, 29) {
 			}));
-			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 120, 15) {
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 44, 29) {
 			}));
-			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 138, 15) {
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 80, 29) {
 			}));
-			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 156, 15) {
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 26, 47) {
 			}));
-			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 174, 15) {
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 44, 47) {
 			}));
-			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 12, 33) {
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 62, 47) {
 			}));
-			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 30, 33) {
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 80, 47) {
 			}));
-			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 48, 33) {
+			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 125, 11) {
 			}));
-			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 66, 33) {
+			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 143, 11) {
 			}));
-			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 84, 33) {
+			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 161, 11) {
 			}));
-			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 102, 33) {
+			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 125, 29) {
 			}));
-			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 120, 33) {
+			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 143, 29) {
 			}));
-			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 138, 33) {
+			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 161, 29) {
 			}));
-			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 156, 33) {
+			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 125, 47) {
 			}));
-			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 174, 33) {
+			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 143, 47) {
+			}));
+			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 161, 47) {
+			}));
+			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 188, 29) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 14 + 8 + sj * 18, -5 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 19 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 14 + 8 + si * 18, -5 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 19 + 8 + si * 18, 0 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -127,18 +135,18 @@ public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 20) {
-					if (!this.mergeItemStack(itemstack1, 20, this.inventorySlots.size(), true)) {
+				if (index < 22) {
+					if (!this.mergeItemStack(itemstack1, 22, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 20, false)) {
-					if (index < 20 + 27) {
-						if (!this.mergeItemStack(itemstack1, 20 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 22, false)) {
+					if (index < 22 + 27) {
+						if (!this.mergeItemStack(itemstack1, 22 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 20, 20 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 22, 22 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -267,10 +275,10 @@ public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 204;
+			this.xSize = 214;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("sword_plus:textures/chestcusrtom.png");
+		private static final ResourceLocation texture = new ResourceLocation("sword_plus:textures/chestsword_gui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -316,7 +324,7 @@ public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 204) / 2;
+			this.guiLeft = (this.width - 214) / 2;
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();

@@ -34,7 +34,7 @@ public class BlockLightStoneBrickbottom extends ElementsSwordPlusMod.ModElement 
 	@GameRegistry.ObjectHolder("sword_plus:light_stone_brickbottom")
 	public static final Block block = null;
 	public BlockLightStoneBrickbottom(ElementsSwordPlusMod instance) {
-		super(instance, 13);
+		super(instance, 14);
 	}
 
 	@Override

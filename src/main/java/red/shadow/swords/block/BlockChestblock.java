@@ -1,9 +1,7 @@
 
 package red.shadow.swords.block;
 
-import red.shadow.swords.procedure.ProcedureChestOnBlockRightClicked;
-import red.shadow.swords.gui.GuiChestcusrtom;
-import red.shadow.swords.creativetab.TabSwords;
+import red.shadow.swords.gui.GuiChestswordGui;
 import red.shadow.swords.SwordPlusMod;
 import red.shadow.swords.ElementsSwordPlusMod;
 
@@ -16,9 +14,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
 import net.minecraft.util.NonNullList;
-import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumBlockRenderType;
@@ -31,91 +27,50 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
-import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.Block;
 
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsSwordPlusMod.ModElement.Tag
-public class BlockChest extends ElementsSwordPlusMod.ModElement {
-	@GameRegistry.ObjectHolder("sword_plus:chest")
+public class BlockChestblock extends ElementsSwordPlusMod.ModElement {
+	@GameRegistry.ObjectHolder("sword_plus:chestblock")
 	public static final Block block = null;
-	public BlockChest(ElementsSwordPlusMod instance) {
-		super(instance, 18);
+	public BlockChestblock(ElementsSwordPlusMod instance) {
+		super(instance, 66);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("chest"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("chestblock"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "sword_plus:tileentitychest");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "sword_plus:tileentitychestblock");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("sword_plus:chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("sword_plus:chestblock", "inventory"));
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
-		public static final PropertyDirection FACING = BlockDirectional.FACING;
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("chest");
+			super(Material.WOOD);
+			setUnlocalizedName("chestblock");
 			setSoundType(SoundType.WOOD);
-			setHardness(1F);
+			setHardness(0.1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
-			setCreativeTab(TabSwords.tab);
-			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
-		}
-
-		@Override
-		protected net.minecraft.block.state.BlockStateContainer createBlockState() {
-			return new net.minecraft.block.state.BlockStateContainer(this, new IProperty[]{FACING});
-		}
-
-		@Override
-		public IBlockState withRotation(IBlockState state, Rotation rot) {
-			return state.withProperty(FACING, rot.rotate((EnumFacing) state.getValue(FACING)));
-		}
-
-		@Override
-		public IBlockState withMirror(IBlockState state, Mirror mirrorIn) {
-			return state.withRotation(mirrorIn.toRotation((EnumFacing) state.getValue(FACING)));
-		}
-
-		@Override
-		public IBlockState getStateFromMeta(int meta) {
-			return this.getDefaultState().withProperty(FACING, EnumFacing.getFront(meta));
-		}
-
-		@Override
-		public int getMetaFromState(IBlockState state) {
-			return ((EnumFacing) state.getValue(FACING)).getIndex();
-		}
-
-		@Override
-		public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta,
-				EntityLivingBase placer) {
-			return this.getDefaultState().withProperty(FACING, EnumFacing.getDirectionFromEntityLiving(pos, placer));
+			setCreativeTab(null);
 		}
 
 		@Override
@@ -141,15 +96,6 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 		}
 
 		@Override
-		public void breakBlock(World world, BlockPos pos, IBlockState state) {
-			TileEntity tileentity = world.getTileEntity(pos);
-			if (tileentity instanceof TileEntityCustom)
-				InventoryHelper.dropInventoryItems(world, pos, (TileEntityCustom) tileentity);
-			world.removeTileEntity(pos);
-			super.breakBlock(world, pos, state);
-		}
-
-		@Override
 		public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer entity, EnumHand hand, EnumFacing direction,
 				float hitX, float hitY, float hitZ) {
 			super.onBlockActivated(world, pos, state, entity, hand, direction, hitX, hitY, hitZ);
@@ -157,22 +103,17 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(SwordPlusMod.instance, GuiChestcusrtom.GUIID, world, x, y, z);
-			}
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureChestOnBlockRightClicked.executeProcedure($_dependencies);
+				((EntityPlayer) entity).openGui(SwordPlusMod.instance, GuiChestswordGui.GUIID, world, x, y, z);
 			}
 			return true;
 		}
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(20, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(22, ItemStack.EMPTY);
 		@Override
 		public int getSizeInventory() {
-			return 20;
+			return 22;
 		}
 
 		@Override
@@ -185,6 +126,8 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
+			if (index == 21)
+				return false;
 			return true;
 		}
 
@@ -195,7 +138,7 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 
 		@Override
 		public String getName() {
-			return "container.chest";
+			return "container.chestblock";
 		}
 
 		@Override
@@ -236,17 +179,17 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 
 		@Override
 		public int getInventoryStackLimit() {
-			return 16;
+			return 64;
 		}
 
 		@Override
 		public String getGuiID() {
-			return "sword_plus:chest";
+			return "sword_plus:chestblock";
 		}
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiChestcusrtom.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
+			return new GuiChestswordGui.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
 		}
 
 		@Override

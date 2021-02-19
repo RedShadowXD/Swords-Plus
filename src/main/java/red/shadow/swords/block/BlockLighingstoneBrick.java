@@ -28,7 +28,7 @@ public class BlockLighingstoneBrick extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:lighingstone_brick")
 	public static final Block block = null;
 	public BlockLighingstoneBrick(ElementsSwordPlusMod instance) {
-		super(instance, 14);
+		super(instance, 15);
 	}
 
 	@Override

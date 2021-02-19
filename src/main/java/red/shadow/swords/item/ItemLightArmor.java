@@ -28,7 +28,7 @@ public class ItemLightArmor extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:light_armorboots")
 	public static final Item boots = null;
 	public ItemLightArmor(ElementsSwordPlusMod instance) {
-		super(instance, 9);
+		super(instance, 10);
 	}
 
 	@Override

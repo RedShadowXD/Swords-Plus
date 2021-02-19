@@ -20,7 +20,7 @@ public class ItemLightshard extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:lightshard")
 	public static final Item block = null;
 	public ItemLightshard(ElementsSwordPlusMod instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

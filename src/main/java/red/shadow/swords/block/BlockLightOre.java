@@ -40,7 +40,7 @@ public class BlockLightOre extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:light_ore")
 	public static final Block block = null;
 	public BlockLightOre(ElementsSwordPlusMod instance) {
-		super(instance, 16);
+		super(instance, 17);
 	}
 
 	@Override

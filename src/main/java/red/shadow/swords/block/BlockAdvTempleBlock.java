@@ -34,7 +34,7 @@ public class BlockAdvTempleBlock extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:adv_temple_block")
 	public static final Block block = null;
 	public BlockAdvTempleBlock(ElementsSwordPlusMod instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override
