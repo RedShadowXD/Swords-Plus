@@ -38,7 +38,7 @@ public class GuiChestcusrtom extends ElementsSwordPlusMod.ModElement {
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiChestcusrtom(ElementsSwordPlusMod instance) {
-		super(instance, 26);
+		super(instance, 30);
 	}
 
 	@Override

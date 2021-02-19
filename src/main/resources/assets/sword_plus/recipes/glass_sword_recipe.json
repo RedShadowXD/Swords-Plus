@@ -1,0 +1,26 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stained_glass",
+      "data": 32767
+    },
+    "1": {
+      "item": "minecraft:stained_glass",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sword_plus:glass_sword",
+    "count": 1
+  }
+}

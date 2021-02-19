@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 @ElementsSwordPlusMod.ModElement.Tag
 public class FuelLightcoal extends ElementsSwordPlusMod.ModElement {
 	public FuelLightcoal(ElementsSwordPlusMod instance) {
-		super(instance, 22);
+		super(instance, 27);
 	}
 
 	@Override

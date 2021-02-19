@@ -3,34 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "slimeysword",
+    "texture": "nethersword",
     "customModelName": "Normal",
-    "name": "Slimey Sword",
+    "name": "Nether Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Swords"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
-    "efficiency": 7.5,
-    "attackSpeed": 1.1,
+    "efficiency": 5.0,
+    "attackSpeed": 0.7000000000000001,
     "enchantability": 14,
-    "damageVsEntity": 8.5,
-    "usageCount": 1000,
+    "damageVsEntity": 7.5,
+    "usageCount": 1025,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Blocks.NETHERRACK"
       },
       {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Blocks.NETHER_BRICK"
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "SlimeyswordLivingEntityIsHitWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

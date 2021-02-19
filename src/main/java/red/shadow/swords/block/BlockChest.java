@@ -3,7 +3,7 @@ package red.shadow.swords.block;
 
 import red.shadow.swords.procedure.ProcedureChestOnBlockRightClicked;
 import red.shadow.swords.gui.GuiChestcusrtom;
-import red.shadow.swords.creativetab.TabLIGHTTempleblocks;
+import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.SwordPlusMod;
 import red.shadow.swords.ElementsSwordPlusMod;
 
@@ -54,7 +54,7 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:chest")
 	public static final Block block = null;
 	public BlockChest(ElementsSwordPlusMod instance) {
-		super(instance, 12);
+		super(instance, 17);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
-			setCreativeTab(TabLIGHTTempleblocks.tab);
+			setCreativeTab(TabSwords.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 

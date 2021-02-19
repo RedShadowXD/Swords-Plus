@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:LIGHTTempleblocks"
+      "value": "CUSTOM:Swords"
     },
     "destroyTool": "Not specified",
     "customDrop": {

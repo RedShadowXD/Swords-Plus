@@ -16,7 +16,7 @@ import java.util.Iterator;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureChestOnBlockRightClicked extends ElementsSwordPlusMod.ModElement {
 	public ProcedureChestOnBlockRightClicked(ElementsSwordPlusMod instance) {
-		super(instance, 30);
+		super(instance, 34);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

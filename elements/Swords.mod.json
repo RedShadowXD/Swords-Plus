@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Swords+",
+    "icon": {
+      "value": "CUSTOM:Intersword"
+    },
+    "showSearch": true
+  }
+}

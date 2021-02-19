@@ -8,7 +8,7 @@
     "name": "Fire Intersword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Swords"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

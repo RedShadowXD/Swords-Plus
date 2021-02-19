@@ -3,34 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "slimeysword",
+    "texture": "ink_sword",
     "customModelName": "Normal",
-    "name": "Slimey Sword",
+    "name": "Ink Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Swords"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
-    "efficiency": 7.5,
-    "attackSpeed": 1.1,
-    "enchantability": 14,
-    "damageVsEntity": 8.5,
-    "usageCount": 1000,
+    "efficiency": 5.5,
+    "attackSpeed": 0.4,
+    "enchantability": 13,
+    "damageVsEntity": 6.0,
+    "usageCount": 750,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.SLIME_BALL"
-      },
-      {
-        "value": "Blocks.SLIME_BLOCK"
+        "value": "Items.DYE#0"
       }
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "SlimeyswordLivingEntityIsHitWithTool"
+      "name": "InkSwordLivingEntityIsHitWithTool"
     }
   }
 }

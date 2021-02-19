@@ -1,6 +1,7 @@
 
 package red.shadow.swords.item;
 
+import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -11,7 +12,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
@@ -20,7 +20,7 @@ public class ItemLightshard extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:lightshard")
 	public static final Item block = null;
 	public ItemLightshard(ElementsSwordPlusMod instance) {
-		super(instance, 5);
+		super(instance, 11);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class ItemLightshard extends ElementsSwordPlusMod.ModElement {
 			maxStackSize = 64;
 			setUnlocalizedName("lightshard");
 			setRegistryName("lightshard");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabSwords.tab);
 		}
 
 		@Override

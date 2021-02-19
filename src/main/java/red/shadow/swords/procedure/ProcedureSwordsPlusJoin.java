@@ -22,7 +22,7 @@ import java.util.Iterator;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureSwordsPlusJoin extends ElementsSwordPlusMod.ModElement {
 	public ProcedureSwordsPlusJoin(ElementsSwordPlusMod instance) {
-		super(instance, 15);
+		super(instance, 20);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

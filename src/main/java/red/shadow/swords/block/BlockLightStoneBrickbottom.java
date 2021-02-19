@@ -1,7 +1,7 @@
 
 package red.shadow.swords.block;
 
-import red.shadow.swords.creativetab.TabLIGHTTempleblocks;
+import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -34,7 +34,7 @@ public class BlockLightStoneBrickbottom extends ElementsSwordPlusMod.ModElement 
 	@GameRegistry.ObjectHolder("sword_plus:light_stone_brickbottom")
 	public static final Block block = null;
 	public BlockLightStoneBrickbottom(ElementsSwordPlusMod instance) {
-		super(instance, 8);
+		super(instance, 13);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class BlockLightStoneBrickbottom extends ElementsSwordPlusMod.ModElement 
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabLIGHTTempleblocks.tab);
+			setCreativeTab(TabSwords.tab);
 		}
 
 		@Override

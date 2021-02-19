@@ -1,6 +1,7 @@
 
 package red.shadow.swords.item;
 
+import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -16,7 +17,6 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
@@ -58,7 +58,7 @@ public class ItemLightSorwd extends ElementsSwordPlusMod.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-		}.setUnlocalizedName("light_sorwd").setRegistryName("light_sorwd").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("light_sorwd").setRegistryName("light_sorwd").setCreativeTab(TabSwords.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

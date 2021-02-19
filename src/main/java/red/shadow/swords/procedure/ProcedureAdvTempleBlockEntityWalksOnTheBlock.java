@@ -16,7 +16,7 @@ import java.util.Iterator;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureAdvTempleBlockEntityWalksOnTheBlock extends ElementsSwordPlusMod.ModElement {
 	public ProcedureAdvTempleBlockEntityWalksOnTheBlock(ElementsSwordPlusMod instance) {
-		super(instance, 28);
+		super(instance, 32);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

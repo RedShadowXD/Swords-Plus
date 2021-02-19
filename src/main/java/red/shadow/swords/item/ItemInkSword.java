@@ -1,7 +1,7 @@
 
 package red.shadow.swords.item;
 
-import red.shadow.swords.procedure.ProcedureSlimeyswordLivingEntityIsHitWithTool;
+import red.shadow.swords.procedure.ProcedureInkSwordLivingEntityIsHitWithTool;
 import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
@@ -29,16 +29,16 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsSwordPlusMod.ModElement.Tag
-public class ItemSlimeysword extends ElementsSwordPlusMod.ModElement {
-	@GameRegistry.ObjectHolder("sword_plus:slimeysword")
+public class ItemInkSword extends ElementsSwordPlusMod.ModElement {
+	@GameRegistry.ObjectHolder("sword_plus:ink_sword")
 	public static final Item block = null;
-	public ItemSlimeysword(ElementsSwordPlusMod instance) {
-		super(instance, 5);
+	public ItemInkSword(ElementsSwordPlusMod instance) {
+		super(instance, 8);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SLIMEYSWORD", 2, 1000, 7.5f, 4.5f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("INK_SWORD", 2, 750, 5.5f, 2f, 13)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -46,7 +46,7 @@ public class ItemSlimeysword extends ElementsSwordPlusMod.ModElement {
 					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
 							new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", (double) this.getAttackDamage(), 0));
 					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
-							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -2.9, 0));
+							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3.6, 0));
 				}
 				return multimap;
 			}
@@ -67,16 +67,16 @@ public class ItemSlimeysword extends ElementsSwordPlusMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					ProcedureSlimeyswordLivingEntityIsHitWithTool.executeProcedure($_dependencies);
+					ProcedureInkSwordLivingEntityIsHitWithTool.executeProcedure($_dependencies);
 				}
 				return true;
 			}
-		}.setUnlocalizedName("slimeysword").setRegistryName("slimeysword").setCreativeTab(TabSwords.tab));
+		}.setUnlocalizedName("ink_sword").setRegistryName("ink_sword").setCreativeTab(TabSwords.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("sword_plus:slimeysword", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("sword_plus:ink_sword", "inventory"));
 	}
 }
