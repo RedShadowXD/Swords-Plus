@@ -2,7 +2,7 @@
 package red.shadow.swords.block;
 
 import red.shadow.swords.item.ItemLightshard;
-import red.shadow.swords.creativetab.TabSwords;
+import red.shadow.swords.creativetab.TabBlocks;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -40,7 +40,7 @@ public class BlockLightOre extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:light_ore")
 	public static final Block block = null;
 	public BlockLightOre(ElementsSwordPlusMod instance) {
-		super(instance, 17);
+		super(instance, 25);
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class BlockLightOre extends ElementsSwordPlusMod.ModElement {
 			setResistance(8F);
 			setLightLevel(0.4F);
 			setLightOpacity(255);
-			setCreativeTab(TabSwords.tab);
+			setCreativeTab(TabBlocks.tab);
 		}
 
 		@Override

@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 @ElementsSwordPlusMod.ModElement.Tag
 public class RecipeLightOreSmelting extends ElementsSwordPlusMod.ModElement {
 	public RecipeLightOreSmelting(ElementsSwordPlusMod instance) {
-		super(instance, 25);
+		super(instance, 33);
 	}
 
 	@Override

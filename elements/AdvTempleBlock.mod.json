@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Swords"
+      "value": "CUSTOM:Blocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {

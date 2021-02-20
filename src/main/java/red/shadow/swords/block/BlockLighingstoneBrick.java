@@ -1,7 +1,7 @@
 
 package red.shadow.swords.block;
 
-import red.shadow.swords.creativetab.TabSwords;
+import red.shadow.swords.creativetab.TabBlocks;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -28,7 +28,7 @@ public class BlockLighingstoneBrick extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:lighingstone_brick")
 	public static final Block block = null;
 	public BlockLighingstoneBrick(ElementsSwordPlusMod instance) {
-		super(instance, 15);
+		super(instance, 23);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class BlockLighingstoneBrick extends ElementsSwordPlusMod.ModElement {
 			setResistance(10F);
 			setLightLevel(1F);
 			setLightOpacity(255);
-			setCreativeTab(TabSwords.tab);
+			setCreativeTab(TabBlocks.tab);
 		}
 
 		@Override

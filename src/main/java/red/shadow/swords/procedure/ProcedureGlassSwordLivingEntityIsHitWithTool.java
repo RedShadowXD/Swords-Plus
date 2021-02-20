@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureGlassSwordLivingEntityIsHitWithTool extends ElementsSwordPlusMod.ModElement {
 	public ProcedureGlassSwordLivingEntityIsHitWithTool(ElementsSwordPlusMod instance) {
-		super(instance, 62);
+		super(instance, 70);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

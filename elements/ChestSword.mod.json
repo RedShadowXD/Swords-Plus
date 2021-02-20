@@ -11,12 +11,12 @@
       "value": "CUSTOM:Swords"
     },
     "toolType": "Sword",
-    "harvestLevel": 0,
+    "harvestLevel": 3,
     "efficiency": 4.0,
-    "attackSpeed": 0.6,
+    "attackSpeed": 1.8,
     "enchantability": 10,
     "damageVsEntity": 6.0,
-    "usageCount": 500,
+    "usageCount": 2300,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -25,12 +25,15 @@
       },
       {
         "value": "Blocks.TRAPPED_CHEST"
+      },
+      {
+        "value": "Blocks.ENDER_CHEST"
       }
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedOnBlock": {
-      "name": "ChestSwordRightClickedInAir"
+    "onEntitySwing": {
+      "name": "ChestSwordEntitySwingsItem"
     }
   }
 }

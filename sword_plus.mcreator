@@ -15,7 +15,7 @@
     {
       "name": "InterswordRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -24,7 +24,7 @@
     {
       "name": "Intersword1",
       "type": "achievement",
-      "sortid": 20,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -33,7 +33,7 @@
     {
       "name": "SwordsPlusJoin",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -50,7 +50,7 @@
     {
       "name": "InterswordGet",
       "type": "achievement",
-      "sortid": 22,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -59,7 +59,7 @@
     {
       "name": "Lightshard",
       "type": "item",
-      "sortid": 12,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -68,7 +68,7 @@
     {
       "name": "LightIngot",
       "type": "item",
-      "sortid": 11,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -77,7 +77,7 @@
     {
       "name": "LightOre",
       "type": "block",
-      "sortid": 17,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -86,7 +86,7 @@
     {
       "name": "LightBlock",
       "type": "block",
-      "sortid": 16,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -95,7 +95,7 @@
     {
       "name": "LightOreBlockRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,7 +104,7 @@
     {
       "name": "LightBlockOreRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -113,7 +113,7 @@
     {
       "name": "LightOreSmelting",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -122,7 +122,7 @@
     {
       "name": "Motelm",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -131,7 +131,7 @@
     {
       "name": "Ingotsd",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -140,7 +140,7 @@
     {
       "name": "Lightcoal",
       "type": "fuel",
-      "sortid": 28,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -149,7 +149,7 @@
     {
       "name": "Lightswordresp",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -158,7 +158,7 @@
     {
       "name": "LightSowrd",
       "type": "achievement",
-      "sortid": 30,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -167,7 +167,7 @@
     {
       "name": "LightStoneBrickbottom",
       "type": "block",
-      "sortid": 14,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -185,7 +185,7 @@
     {
       "name": "Chest",
       "type": "block",
-      "sortid": 18,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +194,7 @@
     {
       "name": "Chestcusrtom",
       "type": "gui",
-      "sortid": 31,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -205,7 +205,7 @@
     {
       "name": "AdvTempleBlock",
       "type": "block",
-      "sortid": 13,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +214,7 @@
     {
       "name": "Temple",
       "type": "achievement",
-      "sortid": 32,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -223,7 +223,7 @@
     {
       "name": "AdvTempleBlockEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -240,33 +240,16 @@
     {
       "name": "Treshachest",
       "type": "achievement",
-      "sortid": 34,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "treshachest"
     },
     {
-      "name": "ChestOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chest_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Templefl1",
       "type": "structure",
-      "sortid": 36,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -275,7 +258,7 @@
     {
       "name": "Templef2",
       "type": "structure",
-      "sortid": 37,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -284,7 +267,7 @@
     {
       "name": "Templef3",
       "type": "structure",
-      "sortid": 38,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -293,7 +276,7 @@
     {
       "name": "Templetl1",
       "type": "structure",
-      "sortid": 39,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -302,7 +285,7 @@
     {
       "name": "Templetl2",
       "type": "structure",
-      "sortid": 40,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -311,7 +294,7 @@
     {
       "name": "LighingstoneBrick",
       "type": "block",
-      "sortid": 15,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -320,7 +303,7 @@
     {
       "name": "FireInnerSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -362,7 +345,7 @@
     {
       "name": "Adv2",
       "type": "achievement",
-      "sortid": 42,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -371,7 +354,7 @@
     {
       "name": "SuperlightswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -397,7 +380,7 @@
     {
       "name": "Lighg2",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -406,7 +389,7 @@
     {
       "name": "Light3",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -415,7 +398,7 @@
     {
       "name": "Lightogoding",
       "type": "achievement",
-      "sortid": 46,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +407,7 @@
     {
       "name": "LightArmor",
       "type": "armor",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -439,7 +422,7 @@
     {
       "name": "LightArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -448,7 +431,7 @@
     {
       "name": "LightArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -457,7 +440,7 @@
     {
       "name": "LightArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -466,7 +449,7 @@
     {
       "name": "LightArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -475,7 +458,7 @@
     {
       "name": "SlimeyswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -501,7 +484,7 @@
     {
       "name": "SlimeswordRecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -510,7 +493,7 @@
     {
       "name": "SlimeySwordget",
       "type": "achievement",
-      "sortid": 53,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -528,7 +511,7 @@
     {
       "name": "NetherSwordRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -546,7 +529,7 @@
     {
       "name": "GlassSwordRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -555,7 +538,7 @@
     {
       "name": "InkSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -581,7 +564,7 @@
     {
       "name": "Swords",
       "type": "tab",
-      "sortid": 57,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -590,7 +573,7 @@
     {
       "name": "NetherSwordToolInHandTick",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -602,7 +585,7 @@
     {
       "name": "InkSwordRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -611,7 +594,7 @@
     {
       "name": "GlassSwordADV",
       "type": "achievement",
-      "sortid": 60,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -620,7 +603,7 @@
     {
       "name": "GlassSwordEntitySwingsItem",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -637,7 +620,7 @@
     {
       "name": "GlassSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -654,37 +637,70 @@
     {
       "name": "InkSwordADV",
       "type": "achievement",
-      "sortid": 63,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ink_sword_adv"
     },
     {
-      "name": "ChestSwordRightClickedInAir",
-      "type": "procedure",
-      "sortid": 64,
+      "name": "Blocks",
+      "type": "tab",
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chest_sword_right_clicked_in_air",
+      "registry_name": "blocks"
+    },
+    {
+      "name": "Armour",
+      "type": "tab",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armour"
+    },
+    {
+      "name": "Ingots",
+      "type": "tab",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ingots"
+    },
+    {
+      "name": "Netherswordadv",
+      "type": "achievement",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherswordadv"
+    },
+    {
+      "name": "NetheriteSwordADV",
+      "type": "achievement",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword_adv"
+    },
+    {
+      "name": "ChestSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chest_sword_entity_swings_item",
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -692,31 +708,11 @@
     {
       "name": "ChestSword",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "chest_sword"
-    },
-    {
-      "name": "ChestswordGui",
-      "type": "gui",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 2
-      },
-      "registry_name": "chestsword_gui"
-    },
-    {
-      "name": "Chestblock",
-      "type": "block",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chestblock"
     }
   ],
   "variable_elements": [],
@@ -736,62 +732,70 @@
   ],
   "language_map": {
     "en_us": {
-      "advancements.intersword_get.title": "Better Irony",
       "item.slimeysword.name": "Slimey Sword",
       "advancements.slimey_swordget.title": "Slimey Paradise!",
       "subtitles.armor_light": "",
-      "advancements.treshachest.title": "Light Chest?",
-      "advancements.temple.title": "Light Temple?",
-      "item.intersword.name": "inner Sword",
       "advancements.lightogoding.title": "God O\u0027 Lightning",
-      "tile.chestblock.name": "Chest block",
-      "advancements.adv_2.descr": "Obtain the Fire Intersword.",
-      "advancements.adv_2.title": "Intersword: The Sequel.",
       "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
-      "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
-      "item.fire_inner_sword.name": "Fire Intersword",
       "item.light_armorlegs.name": "Light Leggings",
-      "advancements.temple.descr": "Find and enter a Light Temple.",
       "advancements.slimey_swordget.descr": "Obtain the Slimeysword.",
-      "item.superlightsword.name": "Super Lightsword",
       "advancements.intersword_1.title": "Swords? Time for more!",
-      "item.ink_sword.name": "Ink Sword",
       "advancements.light_sowrd.title": "God O\u0027 Light",
-      "tile.lighingstone_brick.name": "Light Stone Brick",
-      "itemGroup.tabswords": "Swords+",
-      "item.chest_sword.name": "Chest Sword",
-      "advancements.treshachest.descr": "Find and Open a Light Chest in the Light Temple.",
-      "item.nether_sword.name": "Nether Sword",
       "advancements.light_sowrd.descr": "Obtain the Lightsword.",
       "tile.adv_temple_block.name": "Adv Temple Block",
-      "tile.chest.name": "Chest",
-      "item.light_sorwd.name": "Light Sword",
-      "item.light_armorhelmet.name": "Light Helmet",
       "tile.light_ore.name": "Light Ore",
       "advancements.intersword_1.descr": "Thanks for using Swords+",
-      "item.lightshard.name": "Light Shard",
-      "advancements.glass_sword_adv.descr": "Obtain the Glass Sword.",
-      "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
       "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Light Boots",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
+      "advancements.netherite_sword_adv.descr": "Harder then diamond!",
+      "advancements.intersword_get.descr": "Obtain the Inner Sword.",
+      "advancements.intersword_get.title": "Better Irony",
+      "itemGroup.tabingots": "Swords+ Ingots",
+      "advancements.treshachest.title": "Light Chest?",
+      "advancements.temple.title": "Light Temple?",
+      "item.intersword.name": "Intersword",
+      "advancements.adv_2.descr": "Obtain the Fire Intersword.",
+      "itemGroup.tabblocks": "Swords+ Blocks",
+      "advancements.adv_2.title": "Intersword: The Sequel.",
+      "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
+      "item.fire_inner_sword.name": "Fire Intersword",
+      "advancements.temple.descr": "Find and enter a Light Temple.",
+      "advancements.netherswordadv.descr": "go to the nether",
+      "item.superlightsword.name": "Super Light Sword",
+      "item.ink_sword.name": "Ink Sword",
+      "tile.lighingstone_brick.name": "Light Stone Brick",
+      "itemGroup.tabswords": "Swords+",
+      "advancements.netherswordadv.title": "Nether Sword",
+      "item.chest_sword.name": "Chest Sword",
+      "advancements.treshachest.descr": "Find and Open a Light Chest in the Light Temple.",
+      "item.nether_sword.name": "Nether Sword",
+      "tile.chest.name": "Chest",
+      "item.light_sorwd.name": "Light Sword",
+      "item.light_armorhelmet.name": "Light Helmet",
+      "item.lightshard.name": "Light Shard",
+      "advancements.glass_sword_adv.descr": "Obtain the Glass Sword.",
+      "item.glass_sword.name": "Glass Sword",
+      "itemGroup.tabarmour": "Swords+ Armour",
+      "advancements.netherite_sword_adv.title": "Netherite Sword",
       "item.light_ingot.name": "Light Ingot",
       "item.light_armorbody.name": "Light Chestplate",
-      "advancements.ink_sword_adv.descr": "Obtain the Ink Sword.",
-      "advancements.intersword_get.descr": "Obtain the Inner Sword."
+      "advancements.ink_sword_adv.descr": "Obtain the Ink Sword."
     }
   },
   "workspaceSettings": {
     "modid": "sword_plus",
     "modName": "Swords+",
-    "version": "1.0.0",
-    "author": "RedShadown",
-    "websiteURL": "http://tny.im/Swords-plus",
+    "version": "1.3.0",
+    "author": "RedShadow",
+    "websiteURL": "https://github.com/RedShadowGH/Swords-Plus",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "swords_banner",
-    "requiredMods": [],
+    "requiredMods": [
+      "sml_api"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

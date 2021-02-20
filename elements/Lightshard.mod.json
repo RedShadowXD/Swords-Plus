@@ -8,7 +8,7 @@
     "name": "Light Shard",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "CUSTOM:Swords"
+      "value": "CUSTOM:Ingots"
     },
     "stackSize": 64,
     "enchantability": 0,

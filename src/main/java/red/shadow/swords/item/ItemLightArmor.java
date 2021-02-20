@@ -1,7 +1,7 @@
 
 package red.shadow.swords.item;
 
-import red.shadow.swords.creativetab.TabSwords;
+import red.shadow.swords.creativetab.TabArmour;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -28,7 +28,7 @@ public class ItemLightArmor extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:light_armorboots")
 	public static final Item boots = null;
 	public ItemLightArmor(ElementsSwordPlusMod instance) {
-		super(instance, 10);
+		super(instance, 16);
 	}
 
 	@Override
@@ -36,13 +36,13 @@ public class ItemLightArmor extends ElementsSwordPlusMod.ModElement {
 		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("LIGHT_ARMOR", "sword_plus:light_", 38, new int[]{5, 15, 13, 5}, 21,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("sword_plus:armor_light")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("light_armorhelmet")
-				.setRegistryName("light_armorhelmet").setCreativeTab(TabSwords.tab));
+				.setRegistryName("light_armorhelmet").setCreativeTab(TabArmour.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("light_armorbody")
-				.setRegistryName("light_armorbody").setCreativeTab(TabSwords.tab));
+				.setRegistryName("light_armorbody").setCreativeTab(TabArmour.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("light_armorlegs")
-				.setRegistryName("light_armorlegs").setCreativeTab(TabSwords.tab));
+				.setRegistryName("light_armorlegs").setCreativeTab(TabArmour.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("light_armorboots")
-				.setRegistryName("light_armorboots").setCreativeTab(TabSwords.tab));
+				.setRegistryName("light_armorboots").setCreativeTab(TabArmour.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

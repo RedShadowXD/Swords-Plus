@@ -1,7 +1,7 @@
 
 package red.shadow.swords.creativetab;
 
-import red.shadow.swords.item.ItemIntersword;
+import red.shadow.swords.item.ItemLightIngot;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -11,18 +11,18 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 @ElementsSwordPlusMod.ModElement.Tag
-public class TabSwords extends ElementsSwordPlusMod.ModElement {
-	public TabSwords(ElementsSwordPlusMod instance) {
-		super(instance, 65);
+public class TabIngots extends ElementsSwordPlusMod.ModElement {
+	public TabIngots(ElementsSwordPlusMod instance) {
+		super(instance, 76);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new CreativeTabs("tabswords") {
+		tab = new CreativeTabs("tabingots") {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(ItemIntersword.block, (int) (1));
+				return new ItemStack(ItemLightIngot.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

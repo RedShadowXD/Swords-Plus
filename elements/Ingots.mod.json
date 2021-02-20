@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Swords+ Ingots",
+    "icon": {
+      "value": "CUSTOM:LightIngot"
+    },
+    "showSearch": true
+  }
+}

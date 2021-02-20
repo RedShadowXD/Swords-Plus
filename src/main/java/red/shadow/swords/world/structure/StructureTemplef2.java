@@ -22,7 +22,7 @@ import java.util.Random;
 @ElementsSwordPlusMod.ModElement.Tag
 public class StructureTemplef2 extends ElementsSwordPlusMod.ModElement {
 	public StructureTemplef2(ElementsSwordPlusMod instance) {
-		super(instance, 37);
+		super(instance, 45);
 	}
 
 	@Override

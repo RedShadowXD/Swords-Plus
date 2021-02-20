@@ -1,9 +1,8 @@
 
 package red.shadow.swords.block;
 
-import red.shadow.swords.procedure.ProcedureChestOnBlockRightClicked;
 import red.shadow.swords.gui.GuiChestcusrtom;
-import red.shadow.swords.creativetab.TabSwords;
+import red.shadow.swords.creativetab.TabBlocks;
 import red.shadow.swords.SwordPlusMod;
 import red.shadow.swords.ElementsSwordPlusMod;
 
@@ -46,15 +45,12 @@ import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.Block;
 
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsSwordPlusMod.ModElement.Tag
 public class BlockChest extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:chest")
 	public static final Block block = null;
 	public BlockChest(ElementsSwordPlusMod instance) {
-		super(instance, 18);
+		super(instance, 26);
 	}
 
 	@Override
@@ -83,7 +79,7 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
-			setCreativeTab(TabSwords.tab);
+			setCreativeTab(TabBlocks.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 
@@ -158,11 +154,6 @@ public class BlockChest extends ElementsSwordPlusMod.ModElement {
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
 				((EntityPlayer) entity).openGui(SwordPlusMod.instance, GuiChestcusrtom.GUIID, world, x, y, z);
-			}
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureChestOnBlockRightClicked.executeProcedure($_dependencies);
 			}
 			return true;
 		}

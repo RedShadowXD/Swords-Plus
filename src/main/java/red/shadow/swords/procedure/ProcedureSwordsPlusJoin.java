@@ -22,7 +22,7 @@ import java.util.Iterator;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureSwordsPlusJoin extends ElementsSwordPlusMod.ModElement {
 	public ProcedureSwordsPlusJoin(ElementsSwordPlusMod instance) {
-		super(instance, 21);
+		super(instance, 29);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -41,6 +41,25 @@ public class ProcedureSwordsPlusJoin extends ElementsSwordPlusMod.ModElement {
 			if (entity instanceof EntityPlayerMP) {
 				Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("sword_plus:intersword_1"));
+				AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemaningCriteria().iterator();
+					while (_iterator.hasNext()) {
+						String _criterion = (String) _iterator.next();
+						((EntityPlayerMP) entity).getAdvancements().grantCriterion(_adv, _criterion);
+					}
+				}
+			}
+		}
+		if ((((entity instanceof EntityPlayerMP) && ((entity).world instanceof WorldServer))
+				? ((EntityPlayerMP) entity).getAdvancements()
+						.getProgress(((WorldServer) (entity).world).getAdvancementManager().getAdvancement(new ResourceLocation("sword_plus:adv_3")))
+						.isDone()
+				: false)) {
+		} else {
+			if (entity instanceof EntityPlayerMP) {
+				Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
+						.getAdvancement(new ResourceLocation("sword_plus:adv_3"));
 				AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();
