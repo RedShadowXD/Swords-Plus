@@ -13,7 +13,7 @@ import net.minecraft.creativetab.CreativeTabs;
 @ElementsSwordPlusMod.ModElement.Tag
 public class TabSwords extends ElementsSwordPlusMod.ModElement {
 	public TabSwords(ElementsSwordPlusMod instance) {
-		super(instance, 65);
+		super(instance, 57);
 	}
 
 	@Override

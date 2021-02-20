@@ -2,7 +2,7 @@
 package red.shadow.swords.block;
 
 import red.shadow.swords.procedure.ProcedureAdvTempleBlockEntityWalksOnTheBlock;
-import red.shadow.swords.creativetab.TabBlocks;
+import red.shadow.swords.creativetab.TabSwords;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -34,7 +34,7 @@ public class BlockAdvTempleBlock extends ElementsSwordPlusMod.ModElement {
 	@GameRegistry.ObjectHolder("sword_plus:adv_temple_block")
 	public static final Block block = null;
 	public BlockAdvTempleBlock(ElementsSwordPlusMod instance) {
-		super(instance, 21);
+		super(instance, 13);
 	}
 
 	@Override
@@ -58,7 +58,7 @@ public class BlockAdvTempleBlock extends ElementsSwordPlusMod.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabBlocks.tab);
+			setCreativeTab(TabSwords.tab);
 		}
 
 		@Override

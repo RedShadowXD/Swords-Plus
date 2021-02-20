@@ -19,7 +19,7 @@ import java.util.Iterator;
 @ElementsSwordPlusMod.ModElement.Tag
 public class ProcedureGlassSwordEntitySwingsItem extends ElementsSwordPlusMod.ModElement {
 	public ProcedureGlassSwordEntitySwingsItem(ElementsSwordPlusMod instance) {
-		super(instance, 69);
+		super(instance, 61);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

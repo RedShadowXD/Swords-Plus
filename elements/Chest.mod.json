@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:Blocks"
+      "value": "CUSTOM:Swords"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "ChestOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

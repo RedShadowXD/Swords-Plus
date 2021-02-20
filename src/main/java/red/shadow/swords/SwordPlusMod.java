@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = SwordPlusMod.MODID, version = SwordPlusMod.VERSION)
 public class SwordPlusMod {
 	public static final String MODID = "sword_plus";
-	public static final String VERSION = "1.3.0";
+	public static final String VERSION = "1.0.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("sword_plus:a");
 	@SidedProxy(clientSide = "red.shadow.swords.ClientProxySwordPlusMod", serverSide = "red.shadow.swords.ServerProxySwordPlusMod")
 	public static IProxySwordPlusMod proxy;
