@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -27,6 +27,7 @@
         "value": "Blocks.TRAPPED_CHEST"
       }
     ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -96,7 +96,7 @@ public class BlockLightOre extends ElementsSwordPlusMod.ModElement {
 			setHarvestLevel("pickaxe", 3);
 			setHardness(6.6000000000000005F);
 			setResistance(8F);
-			setLightLevel(0.4F);
+			setLightLevel(0.333333333333F);
 			setLightOpacity(255);
 			setCreativeTab(TabSwords.tab);
 		}
