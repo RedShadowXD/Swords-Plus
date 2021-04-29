@@ -45,7 +45,7 @@
     "damageValueBoots": 5,
     "enchantability": 21,
     "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": "CUSTOM:armor_light"
     },

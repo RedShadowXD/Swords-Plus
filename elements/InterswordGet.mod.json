@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Better Irony",
-    "achievementDescription": "Obtain the Inner Sword.",
+    "achievementDescription": "Obtain the Intersword.",
     "achievementIcon": {
       "value": "CUSTOM:Intersword"
     },

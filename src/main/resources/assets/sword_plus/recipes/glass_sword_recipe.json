@@ -8,12 +8,10 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:stained_glass",
-      "data": 32767
+      "item": "minecraft:glass"
     },
     "1": {
-      "item": "minecraft:stained_glass",
-      "data": 32767
+      "item": "minecraft:glass"
     },
     "2": {
       "item": "minecraft:stick"

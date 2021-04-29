@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Light Chest?",
-    "achievementDescription": "Find and Open a Light Chest in the Light Temple.",
+    "achievementDescription": "Find and open a Light Chest in the Light Temple.",
     "achievementIcon": {
       "value": "CUSTOM:LightBlock"
     },

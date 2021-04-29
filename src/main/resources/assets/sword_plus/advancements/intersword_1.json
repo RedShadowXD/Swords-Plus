@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/blocks/stone.png",
     "icon": {
-      "item": "minecraft:stone_sword"
+      "item": "sword_plus:fire_inner_sword"
     },
     "title": {
       "translate": "advancements.intersword_1.title"

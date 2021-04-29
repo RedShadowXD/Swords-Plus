@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Slimey Paradise!",
-    "achievementDescription": "Obtain the Slimeysword.",
+    "achievementDescription": "Obtain the Slimey sword.",
     "achievementIcon": {
       "value": "CUSTOM:Slimeysword"
     },

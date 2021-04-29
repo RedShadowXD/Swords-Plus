@@ -42,7 +42,7 @@ public class ItemChestSword extends ElementsSwordPlusMod.ModElement {
 					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
 							new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", (double) this.getAttackDamage(), 0));
 					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
-							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3.9, 0));
+							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3.8, 0));
 				}
 				return multimap;
 			}

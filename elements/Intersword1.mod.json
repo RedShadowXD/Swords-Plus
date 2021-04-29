@@ -5,7 +5,7 @@
     "achievementName": "Swords? Time for more!",
     "achievementDescription": "Thanks for using Swords+",
     "achievementIcon": {
-      "value": "Items.STONE_SWORD"
+      "value": "CUSTOM:FireInnerSword"
     },
     "background": "Default",
     "disableDisplay": false,
