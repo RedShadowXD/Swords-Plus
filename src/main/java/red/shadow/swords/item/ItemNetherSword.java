@@ -86,6 +86,7 @@ public class ItemNetherSword extends ElementsSwordPlusMod.ModElement {
 				int z = (int) entity.posZ;
 				if (entity instanceof EntityLivingBase && ((EntityLivingBase) entity).getHeldItemMainhand().equals(itemstack)) {
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					ProcedureNetherSwordToolInHandTick.executeProcedure($_dependencies);
 				}
 			}

@@ -596,7 +596,12 @@
       "ids": {},
       "registry_name": "nether_sword_tool_in_hand_tick",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
