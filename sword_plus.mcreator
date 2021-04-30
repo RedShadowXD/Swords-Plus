@@ -697,6 +697,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chest_sword_recipe"
+    },
+    {
+      "name": "AquaSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AquaSword",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_sword"
     }
   ],
   "variable_elements": [],
@@ -756,6 +782,7 @@
       "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Svjetlosne Èizme",
       "advancements.ink_sword_adv.title": "Crno i ljigavo.",
+      "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Svjetlosni Ingot",
       "item.light_armorbody.name": "Svjetlosni Prsni Koš",
       "advancements.ink_sword_adv.descr": "Pribavi Maè Tinte.",
@@ -802,6 +829,7 @@
       "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Light Boots",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
+      "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Light Ingot",
       "item.light_armorbody.name": "Light Chestplate",
       "advancements.ink_sword_adv.descr": "Obtain the Ink Sword.",
@@ -848,6 +876,7 @@
       "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Light Boots",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
+      "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Light Ingot",
       "item.light_armorbody.name": "Light Chestplate",
       "advancements.ink_sword_adv.descr": "Obtain the Ink Sword.",
@@ -861,7 +890,8 @@
   "workspaceSettings": {
     "modid": "sword_plus",
     "modName": "Swords+",
-    "version": "1.0.0",
+    "version": "1.2.1",
+    "description": "Adds more swords to this block game!",
     "author": "RedShadow",
     "websiteURL": "http://tny.im/Swords-plus",
     "license": "All Rights Reserved",

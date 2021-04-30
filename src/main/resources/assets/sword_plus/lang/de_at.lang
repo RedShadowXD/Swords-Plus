@@ -38,6 +38,7 @@ tile.light_block.name=Block of Light
 tile.light_stone_brickbottom.name=particle Stone Brick
 item.light_armorboots.name=Light Boots
 advancements.ink_sword_adv.title=Black n' Inky.
+item.aqua_sword.name=Aqua Sword
 item.light_ingot.name=Light Ingot
 item.light_armorbody.name=Light Chestplate
 advancements.ink_sword_adv.descr=Obtain the Ink Sword.

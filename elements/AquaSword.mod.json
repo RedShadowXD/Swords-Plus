@@ -1,0 +1,51 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "aquasword",
+    "customModelName": "Normal",
+    "name": "Aqua Sword",
+    "specialInfo": [
+      "Found in the depths..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Swords"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 2.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 970,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.FLOWING_WATER"
+      },
+      {
+        "value": "Blocks.WATER"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Items.SPLASH_POTION"
+      },
+      {
+        "value": "Items.LINGERING_POTION"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "AquaSwordToolInHandTick"
+    }
+  }
+}
