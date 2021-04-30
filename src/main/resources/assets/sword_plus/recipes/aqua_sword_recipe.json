@@ -1,0 +1,30 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:ice"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sword_plus:aqua_sword",
+    "count": 1
+  }
+}
