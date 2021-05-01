@@ -1,7 +1,7 @@
 
 package red.shadow.swords.creativetab;
 
-import red.shadow.swords.item.ItemIntersword;
+import red.shadow.swords.item.ItemFireInnerSword;
 import red.shadow.swords.ElementsSwordPlusMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -22,7 +22,7 @@ public class TabSwords extends ElementsSwordPlusMod.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(ItemIntersword.block, (int) (1));
+				return new ItemStack(ItemFireInnerSword.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

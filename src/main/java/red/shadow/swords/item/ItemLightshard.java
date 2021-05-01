@@ -40,6 +40,7 @@ public class ItemLightshard extends ElementsSwordPlusMod.ModElement {
 			setUnlocalizedName("lightshard");
 			setRegistryName("lightshard");
 			setCreativeTab(TabSwords.tab);
+			setContainerItem(this);
 		}
 
 		@Override

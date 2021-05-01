@@ -581,6 +581,36 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aqua_sword"
+    },
+    {
+      "name": "RegenSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_sword_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RegenSword",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_sword"
     }
   ],
   "variable_elements": [],
@@ -630,6 +660,7 @@
       "item.glass_sword.name": "Stakleni Maè",
       "tile.light_block.name": "Svjetlosni Block",
       "item.light_armorboots.name": "Svjetlosne Èizme",
+      "item.regen_sword.name": "Regen Sword",
       "advancements.ink_sword_adv.title": "Crno i ljigavo.",
       "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Svjetlosni Ingot",
@@ -668,6 +699,7 @@
       "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
       "item.light_armorboots.name": "Light Boots",
+      "item.regen_sword.name": "Regen Sword",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
       "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Light Ingot",
@@ -706,6 +738,7 @@
       "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
       "item.light_armorboots.name": "Light Boots",
+      "item.regen_sword.name": "Regen Sword",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
       "item.aqua_sword.name": "Aqua Sword",
       "item.light_ingot.name": "Light Ingot",
@@ -721,7 +754,7 @@
   "workspaceSettings": {
     "modid": "sword_plus",
     "modName": "Swords+",
-    "version": "1.2.1",
+    "version": "1.3",
     "description": "Adds more swords to this block game!",
     "author": "RedShadow",
     "websiteURL": "http://tny.im/Swords-plus",

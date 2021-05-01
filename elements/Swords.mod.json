@@ -4,7 +4,7 @@
   "definition": {
     "name": "Swords+",
     "icon": {
-      "value": "CUSTOM:Intersword"
+      "value": "CUSTOM:FireInnerSword"
     },
     "showSearch": true
   }

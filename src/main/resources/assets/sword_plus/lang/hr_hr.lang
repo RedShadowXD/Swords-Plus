@@ -28,6 +28,7 @@ advancements.glass_sword_adv.descr=Pribavi Stakleni Mač.
 item.glass_sword.name=Stakleni Mač
 tile.light_block.name=Svjetlosni Block
 item.light_armorboots.name=Svjetlosne Čizme
+item.regen_sword.name=Regen Sword
 advancements.ink_sword_adv.title=Crno i ljigavo.
 item.aqua_sword.name=Aqua Sword
 item.light_ingot.name=Svjetlosni Ingot

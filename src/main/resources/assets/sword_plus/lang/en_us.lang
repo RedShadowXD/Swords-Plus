@@ -28,6 +28,7 @@ advancements.glass_sword_adv.descr=Obtain the Glass Sword.
 item.glass_sword.name=Glass Sword
 tile.light_block.name=Block of Light
 item.light_armorboots.name=Light Boots
+item.regen_sword.name=Regen Sword
 advancements.ink_sword_adv.title=Black n' Inky.
 item.aqua_sword.name=Aqua Sword
 item.light_ingot.name=Light Ingot

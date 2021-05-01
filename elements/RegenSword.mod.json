@@ -1,0 +1,42 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "regensword",
+    "customModelName": "Normal",
+    "name": "Regen Sword",
+    "specialInfo": [
+      "Too lazy to heal yourself?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Swords"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 9,
+    "damageVsEntity": 5.5,
+    "usageCount": 850,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "RegenSwordEntitySwingsItem"
+    }
+  }
+}
