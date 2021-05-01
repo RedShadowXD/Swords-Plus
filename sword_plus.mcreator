@@ -165,15 +165,6 @@
       "registry_name": "light_sowrd"
     },
     {
-      "name": "LightStoneBrickbottom",
-      "type": "block",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "light_stone_brickbottom"
-    },
-    {
       "name": "LightSorwd",
       "type": "tool",
       "sortid": 3,
@@ -181,70 +172,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "light_sorwd"
-    },
-    {
-      "name": "Chest",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chest"
-    },
-    {
-      "name": "Chestcusrtom",
-      "type": "gui",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      },
-      "registry_name": "chestcusrtom"
-    },
-    {
-      "name": "AdvTempleBlock",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "adv_temple_block"
-    },
-    {
-      "name": "Temple",
-      "type": "achievement",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "temple"
-    },
-    {
-      "name": "AdvTempleBlockEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "adv_temple_block_entity_walks_on_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Treshachest",
-      "type": "achievement",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "treshachest"
     },
     {
       "name": "ChestOnBlockRightClicked",
@@ -262,60 +189,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Templefl1",
-      "type": "structure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "templefl_1"
-    },
-    {
-      "name": "Templef2",
-      "type": "structure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "templef_2"
-    },
-    {
-      "name": "Templef3",
-      "type": "structure",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "templef_3"
-    },
-    {
-      "name": "Templetl1",
-      "type": "structure",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "templetl_1"
-    },
-    {
-      "name": "Templetl2",
-      "type": "structure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "templetl_2"
-    },
-    {
-      "name": "LighingstoneBrick",
-      "type": "block",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lighingstone_brick"
     },
     {
       "name": "FireInnerSwordLivingEntityIsHitWithTool",
@@ -675,26 +548,6 @@
       "registry_name": "chest_sword"
     },
     {
-      "name": "ChestswordGui",
-      "type": "gui",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 2
-      },
-      "registry_name": "chestsword_gui"
-    },
-    {
-      "name": "Chestblock",
-      "type": "block",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chestblock"
-    },
-    {
       "name": "ChestSwordRecipe",
       "type": "recipe",
       "sortid": 67,
@@ -751,31 +604,23 @@
       "item.slimeysword.name": "Ljigavi Maè",
       "advancements.slimey_swordget.title": "Ljigavi Raj!",
       "subtitles.armor_light": "",
-      "advancements.treshachest.title": "Svjetlosna škrinja?",
-      "advancements.temple.title": "Svjetlosni hram?",
       "item.intersword.name": "Intermaè",
       "advancements.lightogoding.title": "Gott der Beleuchtung.",
-      "tile.chestblock.name": "Brust-Block",
       "advancements.adv_2.descr": "Pribavi Vatreni Intermaè",
       "advancements.adv_2.title": "Intermaè: Drugi dio.",
       "advancements.lightogoding.descr": "Pribavi Super Svjetlomaè.",
       "advancements.glass_sword_adv.title": "Nemoj se porezati!",
       "item.fire_inner_sword.name": "Vatreni Intermaè",
       "item.light_armorlegs.name": "Svjetlosne hlaèe",
-      "advancements.temple.descr": "Naði i uði u svjetlosni hram.",
       "advancements.slimey_swordget.descr": "Pribavi Ljigavi maè.",
       "item.superlightsword.name": "Super Svjetlomaè",
       "advancements.intersword_1.title": "Maèevi? Vrijeme za više!",
       "item.ink_sword.name": "Maè Tinte",
       "advancements.light_sowrd.title": "Bog svijetla.",
-      "tile.lighingstone_brick.name": "Svjetlosna kamena cigla",
       "itemGroup.tabswords": "Maèevi+",
       "item.chest_sword.name": "Maè Škrinje",
-      "advancements.treshachest.descr": "Naði i otvori svjetlosnu škrinju u svjetlosnom hramu.",
       "item.nether_sword.name": "Nether Maè",
       "advancements.light_sowrd.descr": "Pribavi Svjetlomaè.",
-      "tile.adv_temple_block.name": "Adv Temple Block",
-      "tile.chest.name": "Chest",
       "item.light_sorwd.name": "Svjetlomaè",
       "item.light_armorhelmet.name": "Svjetlosna kaciga",
       "tile.light_ore.name": "Svjetlosna ruda",
@@ -784,7 +629,6 @@
       "advancements.glass_sword_adv.descr": "Pribavi Stakleni Maè.",
       "item.glass_sword.name": "Stakleni Maè",
       "tile.light_block.name": "Svjetlosni Block",
-      "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Svjetlosne Èizme",
       "advancements.ink_sword_adv.title": "Crno i ljigavo.",
       "item.aqua_sword.name": "Aqua Sword",
@@ -798,31 +642,23 @@
       "item.slimeysword.name": "Schleimiges Schwert",
       "advancements.slimey_swordget.title": "Schleimparadies!",
       "subtitles.armor_light": "",
-      "advancements.treshachest.title": "Leichte Kiste?",
-      "advancements.temple.title": "Licht Tempel?",
       "item.intersword.name": "Interschwert",
       "advancements.lightogoding.title": "God O\u0027 Lightning",
-      "tile.chestblock.name": "Chest block",
       "advancements.adv_2.descr": "Obtain the Fire Intersword.",
       "advancements.adv_2.title": "Intersword: The Sequel.",
       "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
       "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
       "item.fire_inner_sword.name": "Fire Intersword",
       "item.light_armorlegs.name": "Light Leggings",
-      "advancements.temple.descr": "Find and enter a Light Temple.",
       "advancements.slimey_swordget.descr": "Obtain the Slimey sword.",
       "item.superlightsword.name": "Super Lightsword",
       "advancements.intersword_1.title": "Swords? Time for more!",
       "item.ink_sword.name": "Ink Sword",
       "advancements.light_sowrd.title": "God O\u0027 Light",
-      "tile.lighingstone_brick.name": "Light Stone Brick",
       "itemGroup.tabswords": "Swords+",
       "item.chest_sword.name": "Chest Sword",
-      "advancements.treshachest.descr": "Find and open a Light Chest in the Light Temple.",
       "item.nether_sword.name": "Nether Sword",
       "advancements.light_sowrd.descr": "Obtain the Lightsword.",
-      "tile.adv_temple_block.name": "Adv Temple Block",
-      "tile.chest.name": "Chest",
       "item.light_sorwd.name": "Lightsword",
       "item.light_armorhelmet.name": "Light Helmet",
       "tile.light_ore.name": "Light Ore",
@@ -831,7 +667,6 @@
       "advancements.glass_sword_adv.descr": "Obtain the Glass Sword.",
       "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
-      "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Light Boots",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
       "item.aqua_sword.name": "Aqua Sword",
@@ -845,31 +680,23 @@
       "item.slimeysword.name": "Slimey Sword",
       "advancements.slimey_swordget.title": "Slimey Paradise!",
       "subtitles.armor_light": "",
-      "advancements.treshachest.title": "Light Chest?",
-      "advancements.temple.title": "Light Temple?",
       "item.intersword.name": "Intersword",
       "advancements.lightogoding.title": "God O\u0027 Lightning",
-      "tile.chestblock.name": "Chest block",
       "advancements.adv_2.descr": "Obtain the Fire Intersword.",
       "advancements.adv_2.title": "Intersword: The Sequel.",
       "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
       "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
       "item.fire_inner_sword.name": "Fire Intersword",
       "item.light_armorlegs.name": "Light Leggings",
-      "advancements.temple.descr": "Find and enter a Light Temple.",
       "advancements.slimey_swordget.descr": "Obtain the Slimey sword.",
       "item.superlightsword.name": "Super Lightsword",
       "advancements.intersword_1.title": "Swords? Time for more!",
       "item.ink_sword.name": "Ink Sword",
       "advancements.light_sowrd.title": "God O\u0027 Light",
-      "tile.lighingstone_brick.name": "Light Stone Brick",
       "itemGroup.tabswords": "Swords+",
       "item.chest_sword.name": "Chest Sword",
-      "advancements.treshachest.descr": "Find and open a Light Chest in the Light Temple.",
       "item.nether_sword.name": "Nether Sword",
       "advancements.light_sowrd.descr": "Obtain the Lightsword.",
-      "tile.adv_temple_block.name": "Adv Temple Block",
-      "tile.chest.name": "Chest",
       "item.light_sorwd.name": "Lightsword",
       "item.light_armorhelmet.name": "Light Helmet",
       "tile.light_ore.name": "Light Ore",
@@ -878,7 +705,6 @@
       "advancements.glass_sword_adv.descr": "Obtain the Glass Sword.",
       "item.glass_sword.name": "Glass Sword",
       "tile.light_block.name": "Block of Light",
-      "tile.light_stone_brickbottom.name": "particle Stone Brick",
       "item.light_armorboots.name": "Light Boots",
       "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
       "item.aqua_sword.name": "Aqua Sword",

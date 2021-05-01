@@ -1,8 +1,0 @@
-{
-  "parent": "sword_plus:custom/chest",
-  "textures": {
-    "all": "sword_plus:blocks/ore",
-    "particle": "sword_plus:blocks/ore",
-    "0": "sword_plus:blocks/normal"
-  }
-}

@@ -6,9 +6,6 @@
  */
 package red.shadow.swords;
 
-import red.shadow.swords.gui.GuiChestswordGui;
-import red.shadow.swords.gui.GuiChestcusrtom;
-
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
@@ -127,19 +124,11 @@ public class ElementsSwordPlusMod implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiChestcusrtom.GUIID)
-				return new GuiChestcusrtom.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiChestswordGui.GUIID)
-				return new GuiChestswordGui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiChestcusrtom.GUIID)
-				return new GuiChestcusrtom.GuiWindow(world, x, y, z, player);
-			if (id == GuiChestswordGui.GUIID)
-				return new GuiChestswordGui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
