@@ -1,0 +1,25 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_sword"
+    },
+    "1": {
+      "item": "minecraft:potion",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sword_plus:regen_sword",
+    "count": 1
+  }
+}

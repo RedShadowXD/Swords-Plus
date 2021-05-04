@@ -595,10 +595,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
@@ -611,6 +607,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "regen_sword"
+    },
+    {
+      "name": "RegenSwordGet",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_sword_get"
+    },
+    {
+      "name": "RegenSwordRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_sword_recipe"
+    },
+    {
+      "name": "RegenSwordEntitySwingsItem1",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regen_sword_entity_swings_item_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -635,7 +666,7 @@
       "advancements.slimey_swordget.title": "Ljigavi Raj!",
       "subtitles.armor_light": "",
       "item.intersword.name": "Intermaè",
-      "advancements.lightogoding.title": "Gott der Beleuchtung.",
+      "advancements.lightogoding.title": "Bog grmljavine.",
       "advancements.adv_2.descr": "Pribavi Vatreni Intermaè",
       "advancements.adv_2.title": "Intermaè: Drugi dio.",
       "advancements.lightogoding.descr": "Pribavi Super Svjetlomaè.",
@@ -648,9 +679,11 @@
       "item.ink_sword.name": "Maè Tinte",
       "advancements.light_sowrd.title": "Bog svijetla.",
       "itemGroup.tabswords": "Maèevi+",
+      "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Maè Škrinje",
       "item.nether_sword.name": "Nether Maè",
       "advancements.light_sowrd.descr": "Pribavi Svjetlomaè.",
+      "advancements.regen_sword_get.descr": "Obtain the Regen Sword.",
       "item.light_sorwd.name": "Svjetlomaè",
       "item.light_armorhelmet.name": "Svjetlosna kaciga",
       "tile.light_ore.name": "Svjetlosna ruda",
@@ -667,45 +700,6 @@
       "item.light_armorbody.name": "Svjetlosni Prsni Koš",
       "advancements.ink_sword_adv.descr": "Pribavi Maè Tinte.",
       "advancements.intersword_get.descr": "Pribavi Intermaè."
-    },
-    "de_at": {
-      "advancements.intersword_get.title": "Bessere Ironie",
-      "item.slimeysword.name": "Schleimiges Schwert",
-      "advancements.slimey_swordget.title": "Schleimparadies!",
-      "subtitles.armor_light": "",
-      "item.intersword.name": "Interschwert",
-      "advancements.lightogoding.title": "God O\u0027 Lightning",
-      "advancements.adv_2.descr": "Obtain the Fire Intersword.",
-      "advancements.adv_2.title": "Intersword: The Sequel.",
-      "advancements.lightogoding.descr": "Obtain a Super Lightsword.",
-      "advancements.glass_sword_adv.title": "Don\u0027t Cut Yourself!",
-      "item.fire_inner_sword.name": "Fire Intersword",
-      "item.light_armorlegs.name": "Light Leggings",
-      "advancements.slimey_swordget.descr": "Obtain the Slimey sword.",
-      "item.superlightsword.name": "Super Lightsword",
-      "advancements.intersword_1.title": "Swords? Time for more!",
-      "item.ink_sword.name": "Ink Sword",
-      "advancements.light_sowrd.title": "God O\u0027 Light",
-      "itemGroup.tabswords": "Swords+",
-      "item.chest_sword.name": "Chest Sword",
-      "item.nether_sword.name": "Nether Sword",
-      "advancements.light_sowrd.descr": "Obtain the Lightsword.",
-      "item.light_sorwd.name": "Lightsword",
-      "item.light_armorhelmet.name": "Light Helmet",
-      "tile.light_ore.name": "Light Ore",
-      "advancements.intersword_1.descr": "Thanks for using Swords+",
-      "item.lightshard.name": "Light Shard",
-      "advancements.glass_sword_adv.descr": "Obtain the Glass Sword.",
-      "item.glass_sword.name": "Glass Sword",
-      "tile.light_block.name": "Block of Light",
-      "item.light_armorboots.name": "Light Boots",
-      "item.regen_sword.name": "Regen Sword",
-      "advancements.ink_sword_adv.title": "Black n\u0027 Inky.",
-      "item.aqua_sword.name": "Aqua Sword",
-      "item.light_ingot.name": "Light Ingot",
-      "item.light_armorbody.name": "Light Chestplate",
-      "advancements.ink_sword_adv.descr": "Obtain the Ink Sword.",
-      "advancements.intersword_get.descr": "Obtain the Intersword."
     },
     "en_us": {
       "advancements.intersword_get.title": "Better Irony",
@@ -726,9 +720,11 @@
       "item.ink_sword.name": "Ink Sword",
       "advancements.light_sowrd.title": "God O\u0027 Light",
       "itemGroup.tabswords": "Swords+",
+      "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Chest Sword",
       "item.nether_sword.name": "Nether Sword",
       "advancements.light_sowrd.descr": "Obtain the Lightsword.",
+      "advancements.regen_sword_get.descr": "Obtain the Regen Sword.",
       "item.light_sorwd.name": "Lightsword",
       "item.light_armorhelmet.name": "Light Helmet",
       "tile.light_ore.name": "Light Ore",

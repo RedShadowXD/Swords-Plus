@@ -35,8 +35,11 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntitySwing": {
+    "onItemInUseTick": {
       "name": "RegenSwordEntitySwingsItem"
+    },
+    "onEntitySwing": {
+      "name": "RegenSwordEntitySwingsItem1"
     }
   }
 }

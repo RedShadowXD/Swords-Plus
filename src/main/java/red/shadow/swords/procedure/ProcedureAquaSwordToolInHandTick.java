@@ -22,6 +22,6 @@ public class ProcedureAquaSwordToolInHandTick extends ElementsSwordPlusMod.ModEl
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 100, (int) 1));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, (int) 100, (int) 1));
 	}
 }
