@@ -1,0 +1,25 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potion",
+      "data": 32767
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "sword_plus:intersword"
+    }
+  },
+  "result": {
+    "item": "sword_plus:aqua_sword",
+    "count": 1
+  }
+}

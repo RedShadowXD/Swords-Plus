@@ -642,6 +642,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "AquaSwordRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_sword_recipe"
     }
   ],
   "variable_elements": [],
