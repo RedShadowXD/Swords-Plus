@@ -27,14 +27,14 @@ public class ProcedureChestOnBlockRightClicked extends ElementsSwordPlusMod.ModE
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((((entity instanceof EntityPlayerMP) && ((entity).world instanceof WorldServer))
 				? ((EntityPlayerMP) entity).getAdvancements()
-						.getProgress(
-								((WorldServer) (entity).world).getAdvancementManager().getAdvancement(new ResourceLocation("sword_plus:treshachest")))
+						.getProgress(((WorldServer) (entity).world).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("sword_plus:deleted_mod_element")))
 						.isDone()
 				: false)) {
 		} else {
 			if (entity instanceof EntityPlayerMP) {
 				Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("sword_plus:treshachest"));
+						.getAdvancement(new ResourceLocation("sword_plus:deleted_mod_element"));
 				AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();
