@@ -1,0 +1,30 @@
+{
+  "group": "sword_plus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:end_rod"
+    },
+    "3": {
+      "item": "minecraft:purpur_block"
+    },
+    "4": {
+      "item": "minecraft:end_rod"
+    },
+    "5": {
+      "item": "minecraft:purpur_block"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sword_plus:saber_sword",
+    "count": 1
+  }
+}

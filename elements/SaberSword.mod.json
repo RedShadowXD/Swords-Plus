@@ -44,8 +44,8 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "SaberSwordLivingEntityIsHitWithTool"
+    "onEntitySwing": {
+      "name": "SaberSwordEntitySwingsItem"
     }
   }
 }

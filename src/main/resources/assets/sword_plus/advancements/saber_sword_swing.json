@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sword_plus:saber_sword"
+    },
+    "title": {
+      "translate": "advancements.saber_sword_swing.title"
+    },
+    "description": {
+      "translate": "advancements.saber_sword_swing.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "saber_sword_swing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "sword_plus:ink_sword_adv"
+}

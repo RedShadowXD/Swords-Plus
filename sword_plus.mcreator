@@ -662,33 +662,39 @@
       "registry_name": "saber_sword"
     },
     {
-      "name": "SaberSwordLivingEntityIsHitWithTool",
-      "type": "procedure",
+      "name": "SaberSwordSwing",
+      "type": "achievement",
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "saber_sword_living_entity_is_hit_with_tool",
+      "registry_name": "saber_sword_swing"
+    },
+    {
+      "name": "SaberSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saber_sword_entity_swings_item",
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
+    },
+    {
+      "name": "SaberSwordRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saber_sword_recipe"
     }
   ],
   "variable_elements": [],
@@ -722,6 +728,7 @@
       "advancements.slimey_swordget.title": "Ljigavi Raj!",
       "subtitles.armor_light": "",
       "item.intersword.name": "Intermaè",
+      "advancements.saber_sword_swing.title": "Keep that away from me!",
       "advancements.lightogoding.title": "Bog grmljavine.",
       "advancements.adv_2.descr": "Pribavi Vatreni Intermaè",
       "advancements.adv_2.title": "Intermaè: Drugi dio.",
@@ -739,6 +746,7 @@
       "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Maè Škrinje",
       "item.nether_sword.name": "Nether Maè",
+      "advancements.saber_sword_swing.descr": "Swing the Saber Sword.",
       "advancements.light_sowrd.descr": "Pribavi Svjetlomaè.",
       "advancements.regen_sword_get.descr": "Obtain the Regen Sword.",
       "item.light_sorwd.name": "Svjetlomaè",
@@ -765,6 +773,7 @@
       "advancements.slimey_swordget.title": "Slimey Paradise!",
       "subtitles.armor_light": "",
       "item.intersword.name": "Intersword",
+      "advancements.saber_sword_swing.title": "Keep that away from me!",
       "advancements.lightogoding.title": "God O\u0027 Lightning",
       "advancements.adv_2.descr": "Obtain the Fire Intersword.",
       "advancements.adv_2.title": "Intersword: The Sequel.",
@@ -782,6 +791,7 @@
       "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Chest Sword",
       "item.nether_sword.name": "Nether Sword",
+      "advancements.saber_sword_swing.descr": "Swing the Saber Sword.",
       "advancements.light_sowrd.descr": "Obtain the Lightsword.",
       "advancements.regen_sword_get.descr": "Obtain the Regen Sword.",
       "item.light_sorwd.name": "Lightsword",
@@ -809,7 +819,7 @@
   "workspaceSettings": {
     "modid": "sword_plus",
     "modName": "Swords+",
-    "version": "1.3",
+    "version": "1.4",
     "description": "Adds more swords to this block game!",
     "author": "RedShadow",
     "websiteURL": "http://tny.im/Swords-plus",
