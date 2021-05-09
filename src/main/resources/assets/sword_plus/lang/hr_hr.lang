@@ -1,4 +1,5 @@
 advancements.intersword_get.title=Bolja Ironija
+subtitles.sabersword_hit=
 item.slimeysword.name=Ljigavi Mač
 advancements.slimey_swordget.title=Ljigavi Raj!
 subtitles.armor_light=
@@ -15,6 +16,7 @@ item.superlightsword.name=Super Svjetlomač
 advancements.intersword_1.title=Mačevi? Vrijeme za više!
 item.ink_sword.name=Mač Tinte
 advancements.light_sowrd.title=Bog svijetla.
+item.saber_sword.name=Saber Sword
 itemGroup.tabswords=Mačevi+
 advancements.regen_sword_get.title=Ez Heal.
 item.chest_sword.name=Mač Škrinje

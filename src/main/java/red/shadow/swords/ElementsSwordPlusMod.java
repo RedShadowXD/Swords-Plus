@@ -56,6 +56,8 @@ public class ElementsSwordPlusMod implements IFuelHandler, IWorldGenerator {
 	public ElementsSwordPlusMod() {
 		sounds.put(new ResourceLocation("sword_plus", "armor_light"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sword_plus", "armor_light")));
+		sounds.put(new ResourceLocation("sword_plus", "sabersword_hit"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sword_plus", "sabersword_hit")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

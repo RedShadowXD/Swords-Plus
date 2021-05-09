@@ -1,0 +1,51 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sabersword",
+    "customModelName": "Normal",
+    "name": "Saber Sword",
+    "specialInfo": [
+      "Glowy? Glow."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Swords"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.5,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.5,
+    "usageCount": 645,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.END_ROD"
+      },
+      {
+        "value": "Blocks.PURPUR_BLOCK"
+      },
+      {
+        "value": "Blocks.PURPUR_PILLAR"
+      },
+      {
+        "value": "Blocks.PURPUR_SLAB"
+      },
+      {
+        "value": "Blocks.PURPUR_DOUBLE_SLAB"
+      },
+      {
+        "value": "Blocks.PURPUR_STAIRS"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SaberSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

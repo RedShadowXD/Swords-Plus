@@ -23,5 +23,14 @@
         "stream": false
       }
     ]
+  },
+  "sabersword_hit": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sword_plus:saberswordsound",
+        "stream": false
+      }
+    ]
   }
 }

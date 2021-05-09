@@ -1,4 +1,5 @@
 advancements.intersword_get.title=Better Irony
+subtitles.sabersword_hit=
 item.slimeysword.name=Slimey Sword
 advancements.slimey_swordget.title=Slimey Paradise!
 subtitles.armor_light=
@@ -15,6 +16,7 @@ item.superlightsword.name=Super Lightsword
 advancements.intersword_1.title=Swords? Time for more!
 item.ink_sword.name=Ink Sword
 advancements.light_sowrd.title=God O' Light
+item.saber_sword.name=Saber Sword
 itemGroup.tabswords=Swords+
 advancements.regen_sword_get.title=Ez Heal.
 item.chest_sword.name=Chest Sword

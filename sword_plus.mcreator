@@ -651,6 +651,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aqua_sword_recipe"
+    },
+    {
+      "name": "SaberSword",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saber_sword"
+    },
+    {
+      "name": "SaberSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saber_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -666,11 +704,20 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "sabersword_hit",
+      "files": [
+        "saberswordsound"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "hr_hr": {
       "advancements.intersword_get.title": "Bolja Ironija",
+      "subtitles.sabersword_hit": "",
       "item.slimeysword.name": "Ljigavi Maè",
       "advancements.slimey_swordget.title": "Ljigavi Raj!",
       "subtitles.armor_light": "",
@@ -687,6 +734,7 @@
       "advancements.intersword_1.title": "Maèevi? Vrijeme za više!",
       "item.ink_sword.name": "Maè Tinte",
       "advancements.light_sowrd.title": "Bog svijetla.",
+      "item.saber_sword.name": "Saber Sword",
       "itemGroup.tabswords": "Maèevi+",
       "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Maè Škrinje",
@@ -712,6 +760,7 @@
     },
     "en_us": {
       "advancements.intersword_get.title": "Better Irony",
+      "subtitles.sabersword_hit": "",
       "item.slimeysword.name": "Slimey Sword",
       "advancements.slimey_swordget.title": "Slimey Paradise!",
       "subtitles.armor_light": "",
@@ -728,6 +777,7 @@
       "advancements.intersword_1.title": "Swords? Time for more!",
       "item.ink_sword.name": "Ink Sword",
       "advancements.light_sowrd.title": "God O\u0027 Light",
+      "item.saber_sword.name": "Saber Sword",
       "itemGroup.tabswords": "Swords+",
       "advancements.regen_sword_get.title": "Ez Heal.",
       "item.chest_sword.name": "Chest Sword",
